@@ -1,0 +1,43 @@
+
+.invoicing_software .header_advantages h2, .invoicing_software .header_advantages p{
+    width: 80%;
+    margin: auto;
+}
+.invoicing_software .header_card p{
+    width: 100%;
+}
+.invoicing_software .header_advantages h2 img {
+    
+    right: -23%;
+}
+.section1_invoice h3{
+    color: #0B2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 24.7px */
+    width: 70%;
+    margin: auto;
+}
+.section1_invoice .invoice_centered{
+    color: #0B2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%; /* 30.08px */
+    width: 70%;
+    margin: 4% auto;
+}
+.section1_invoice {
+    margin: 5% auto;
+}
+.section1_invoice  .time_card_reverse{
+    margin: 3% auto ;
+}
+.invoicing_software .cloud_blue_cards{
+    background-size: 100% 100% ;
+}

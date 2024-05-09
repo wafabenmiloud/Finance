@@ -1,0 +1,151 @@
+.glossaire_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5% 0;
+}
+.glossaire_title h2 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%; /* 56.4px */
+}
+.glossaire_title span {
+  color: #25a7ff;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%;
+}
+.glossaire_title p {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.5%; /* 25.5px */
+  width: 80%;
+}
+.glossaire_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  width: 50%;
+  margin: auto;
+}
+.glossaire_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+background: radial-gradient(125.05% 135.00% at 100.00% -0.00%, #E8F6FF 0%, #FFF 100%);
+box-shadow: 0px 40px 32px 0px rgba(0, 0, 0, 0.13);
+}
+.glossaire_card_row1 {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%; /* 56.4px */
+  border-radius: 50px;
+  background: linear-gradient(163deg, #25a7ff 0%, #0476c3 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+  padding: 13px 23px;
+  margin-left: -95%;
+  margin-top: -3%;
+
+}
+.glossaire_card_row2{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.glossaire_paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px 100px;
+
+}
+.glossaire_paragraph span{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 131.5%; /* 26.3px */
+letter-spacing: 0.4px;
+}
+.glossaire_paragraph p{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.5%; /* 21.04px */
+    letter-spacing: 0.32px;
+    border-bottom: 1px solid #7B7B7B;
+    padding-bottom: 20px;
+
+}
+@media screen and (max-width: 1920px){
+  .glossaire_cards {
+    width: 60%;
+  }
+}
+@media (max-width:1024px){
+    .glossaire_cards {
+        width: 90%;
+      }
+      .glossaire_paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px 40px;
+    
+    }
+    .glossaire_card_row1 {
+      
+        margin-left: -88%;
+        margin-top: -3%;
+      
+      }
+      .glossaire_title h2 {
+        
+        font-size: 38px;
+       
+      }
+      .glossaire_title span {
+       
+        font-size: 38px;
+        
+      }
+      .glossaire_title p {
+        color: #7b7b7b;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 127.5%; /* 25.5px */
+        width: 80%;
+      }
+}

@@ -1,0 +1,13 @@
+.cards_management{
+    width: 50%;
+    margin:5% auto;
+
+}
+@media screen and (max-width: 1920px)
+{
+    .cards_management{
+        width: 70%;
+        margin:5% auto;
+    
+    }
+}

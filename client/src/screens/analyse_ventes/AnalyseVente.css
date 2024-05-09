@@ -1,0 +1,138 @@
+.analyse_ventes h2 {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+  padding-bottom: 1.5%;
+}
+.analyse_ventes {
+  padding: 3% 0;
+  width: 60%;
+  margin: auto;
+}
+.ventes_dark_bg,
+.ventes_light_bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  gap: 70px;
+  padding: 2% 6%;
+  border-bottom: 0.5px solid #959799;
+}
+.bg2{
+  display: flex;
+  flex-direction: column !important;
+  border: none !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+}
+.bg2 h4{
+  color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 100.5%; /* 16.08px */
+}
+.bg2 h5{
+  color: #7B7B7B;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 112.5%; /* 15.75px */
+}
+.bg span{
+  color: #7B7B7B;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 157.5%; /* 22.05px */
+}
+.bg button{
+  color: #0B2840;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.5%; /* 14.07px */
+padding: 11px 15px;
+border-radius: 2px;
+background: #25A7FF;
+}
+.bg p{
+  color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: 157.5%; /* 15.75px */
+}
+.bg{
+  
+  border: none !important;
+  gap: 20px !important;
+}
+.ventes_card_col1 {
+  width: 10%;
+}
+.ventes_card_col2 {
+  width: 90%;
+}
+.ventes_dark_bg {
+  background: #efefef;
+}
+.ventes_light_bg {
+  background: #fff;
+}
+.analyse_ventes_section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+  border: 0.5px solid #25a7ff;
+  background: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.04);
+  padding: 2% 0;
+}
+.ventes_card_col2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ventes_card_col2 h5 {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.5%; /* 16.08px */
+}
+.ventes_card_col2 h6 {
+  color: #7b7b7b;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.5%; /* 15.75px */
+}
+.none{
+    border: none !important;
+}
+@media (max-width:600px) {
+  .analyse_ventes {
+    width: 95%;
+  }
+  .analyse_ventes h2 {
+    
+    font-size: 22px;
+   
+  }
+}

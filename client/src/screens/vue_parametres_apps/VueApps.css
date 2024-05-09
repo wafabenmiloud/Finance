@@ -1,0 +1,87 @@
+.vue_groupe{
+    width: 65%;
+    margin:5% auto;
+}
+.vue_groupe h2{
+    color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 23.2px */
+}
+.vue_groupe_content{
+    border-radius: 5px;
+    border: 0.5px solid #25A7FF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+    width: 100%;
+    margin: 2% 0;
+    padding-bottom: 1%;
+    padding: 2% 4%;
+}
+.vue_groupe_content h3{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 18.705px */
+}
+.vue_groupe_content a{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    text-decoration-line: underline;
+    margin: 3%;    
+    display: block;
+}
+.vue_buttons{
+    padding: 2% 4%;
+    display: flex;
+    gap: 20px;
+}
+.vue_buttons button{
+    padding: 13px 20px;
+
+}
+
+.vue_groupe_content table {
+    border-collapse:collapse;
+    width: 100%;
+  }
+ 
+  .vue_groupe_content tbody td {
+    padding: 10px;
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */
+  }
+  .vue_groupe_content thead td {
+    padding: 10px;
+    color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.5%; /* 14.07px */
+  }
+  .vue_groupe_content thead tr {
+   border-bottom: #959799 0.5px solid ;
+  }
+  @media (max-width:600px) {
+    .vue_groupe h2{
+        color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 23.2px */
+    }
+  }

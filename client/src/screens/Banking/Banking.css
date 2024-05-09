@@ -1,0 +1,213 @@
+.h2_banking{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+}
+.video1_banking{
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.60);
+    height: 350px;
+    width: 40%;
+    margin: 5% auto;
+}
+.banking_blue_bg{
+    color: white;
+    text-align: center;
+    background: url('../../assets/background/Banking\ blue\ bg\ .png');
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banking_blue_bg h2{
+
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+}
+.banking_blue_bg p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.4%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.bbg_1{
+    width: 55%;
+    margin: auto;
+}
+.banking_blue_bg h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.4%;
+    padding: 6%;
+}
+.banking_line{
+    align-items: flex-start;
+    padding: 3%;
+}
+.banking_line_text h4{
+    color: #FFF !important;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px; 
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 120%;
+    text-align: left;
+}
+.banking_tic{
+    background: #000 !important;
+}
+.banking_tic_wrapper{
+    background-color: #000 !important;
+}
+.bbg_2{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    margin-top: 5%;
+}
+.banking_card{
+    width: 30%;
+    border-radius: 25px;
+    background: linear-gradient(215deg, #FEFFFF 0%, #E5F4FF 100%);
+    box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+    text-align: center;
+    padding: 1%;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.banking_card p{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5%; /* 20.4px */
+    justify-self: flex-end;
+    width: 115%;
+    
+    
+}
+.banking_card img{
+    width: 50%;
+    justify-self: flex-start;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    height: 100px;
+}
+.banking_p{
+    width: 50%;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125.4%; /* 20.064px */
+    margin-top: 30px;
+}
+.faq h2{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+}
+.faq {
+    width: 60%;
+    margin: auto;
+}
+@media screen and (max-width: 1920px)
+{
+    .bbg_2{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .banking_p{
+        width: 70%;
+        margin: auto;
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125.4%; /* 20.064px */
+        margin-top: 30px;
+    }
+}
+@media (max-width:1024px){
+.video1_banking{
+    width: 80%;
+    margin: 8% auto;
+
+}
+.bbg_1,.bbg_2{
+    width: 100%;
+
+}
+.bbg_2{
+    flex-direction: column;
+}
+.banking_card{
+    width: 95%;
+    margin: auto;
+    padding: 3%;
+    margin-bottom: 5%;
+}
+.faq{
+    width: 90%;
+}
+.faq h2{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+}
+.h2_banking{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+}
+.banking_line{
+    align-items: flex-start;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+}
+}

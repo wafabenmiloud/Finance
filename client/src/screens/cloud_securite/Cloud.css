@@ -1,0 +1,256 @@
+.cloud_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 8%;
+    gap: 20px;
+}
+.cloud_title .span{
+    color: #25A7FF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 46.4px */
+text-align: center;
+}
+.cloud_title h1{
+    color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%;
+}
+.cloud_title .h1{
+   
+text-align: center;
+}
+.cloud_title .p{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 127%; /* 22.86px */
+text-align: center;
+width: 62%;
+}
+.cloud_title button{
+    border-radius: 5px;
+background: #00F8F7;
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+color: #0B2840;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 132.023%; /* 23.764px */
+padding: 8px 15px;
+}
+.cloud_text{
+     display: flex;
+    flex-direction: column;
+    width:50%;
+    margin: auto;
+    gap: 20px;
+}
+.cloud_text h1{
+    color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.5%; /* 29.64px */
+}
+.cloud_text p{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 127%; /* 22.86px */
+}
+.cloud_blue{
+    border-radius: 10px;
+background: rgba(37, 167, 255, 0.29);
+box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 148.5%; /* 20.79px */
+padding: 1% 2%;
+margin: auto;
+width: 50%;
+}
+.cloud_center{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    gap: 50px;
+    width: 85%;
+    margin: auto;
+}
+.cloud_blue_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    padding: 4% 24%;
+    gap: 20px;
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    background-position: center;
+    background-image: url(../../assets/testimonials.png);
+}
+.cloud_blue_cards{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    padding: 4% 24%;
+    gap: 20px;
+    background-repeat: no-repeat;
+    background-attachment:scroll; 
+    background-position: center;
+    background-size: 100% 100% ;
+    background-image: url(../../assets/testimonials.png);
+}
+.cloud_blue_section h3{
+    color: #0B2840;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.5%; /* 39.52px */
+}
+.cloud_blue_section p{
+    color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 127%; /* 25.4px */
+}
+.cloud_card_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cloud_card1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #0B2840;
+    box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+    margin-bottom: -45px;
+    z-index: 9999;
+  }
+  .cloud_card2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      background: radial-gradient(59.30% 57.09% at 42.43% 53.50%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+      box-shadow: 0px 40px 32px 0px rgba(0, 0, 0, 0.13);
+    width: 100%;
+    height: 350px;
+    flex-shrink: 0;
+    gap: 10px;
+    padding: 2% 3.5% 0 3.5%;
+  }
+  .cloud_blue_cards h3{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+  }
+  .cloud_blue_cards h4{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+  }
+  @media screen and (max-width: 1920px){
+    .cloud_blue_cards{
+        padding: 4% 18%;
+    }
+    .cloud_blue_section{
+       
+        padding: 4% 18%;
+      
+    }
+    .cloud_title{
+        padding: 5% 0;
+    }
+    .cloud_text{
+        width: 60%;
+    }
+    .cloud_blue{
+    width: 60%;
+    }
+    .cloud_center{
+        width: 100%;
+    }
+  }
+  @media (max-width:1024px){
+    .cloud_title .p{
+    width: 92%;
+    }
+    .cloud_text{
+        width: 90%;
+    }
+    .cloud_blue{
+    width: 92%;
+    }
+    .cloud_blue_section{
+        padding: 4% 4%;
+    }
+    .cloud_blue_cards{
+        padding: 4% 2%;
+    }
+    .cloud_title .span{
+    font-size: 30px;
+    }
+    .cloud_title h1{
+    font-size: 30px;
+    }
+  }
+  @media (max-width:600px){
+   
+    .cloud_blue_cards{
+        display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+    
+    background-size: 100% 100%;
+}
+    
+  }

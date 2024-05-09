@@ -1,0 +1,45 @@
+.image_cofi{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -80px;
+}
+.image_cofi p{
+    color: #7B7B7B;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 114%; /* 15.96px */
+}
+.image_cofi img{
+    width: 50%;
+}
+.cofi_card_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+@media screen and (max-width: 1920px){
+    .cofi_card_wrap{
+       
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+  
+    .image_cofi p:last-child {
+        width: 100%;
+    }
+    .image_cofi{
+        width: 100%;
+    }
+    .image_cofi img{
+        width: 80%;
+    }
+  
+}

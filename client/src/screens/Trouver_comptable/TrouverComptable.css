@@ -1,0 +1,246 @@
+.section1_trouver {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    margin: 120px auto;
+}
+
+.img_trouver {
+    width: 40%;
+    position: relative;
+}
+
+.img_trouver img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.rectangleTrouverImg {
+    border-radius: 2.28125rem;
+    background: linear-gradient(163deg, #00F8F7 0%, #00F8BC 100%);
+    box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+    padding: 5% 10%;
+    position: absolute;
+    left: 75%;
+    top: -3.5%;
+}
+
+.textTrouver1 {
+    width: 39%;
+    position: relative;
+    left: -5%;
+    top: 75px;
+
+    }
+.textTrouver1 p {
+    padding: 5% 0%;
+
+}
+.textTrouver1 h1{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.5%;
+    width: 100%;
+}
+.textTrouver1 h2{
+    color: #0B2840;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.023%;
+}
+.trouver_select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #25a7ff;
+    background: #fff;
+    padding:  0.8% 2%;
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0.24px;
+    background-image: url('../../assets/icons/Badge\ Trouver.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    width: fit-content;
+}
+.reinstall_trouver{
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5%;
+    width: 60%;
+    margin:1% auto 2% auto;
+    display: block;
+    text-align: right;
+
+}
+.section2_trouver{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+.trouver_filter{
+    background-image: url('../../assets/icons/Filter\ Trouver.svg') ;
+    
+}
+.trouver_partner{
+    background-image: url('../../assets/icons/Partner\ Trouver.svg') ;
+    
+}
+.trouver_location{
+    background-image: url('../../assets/icons/Place\ trouver.svg') ;
+
+}
+
+.map_trouver{
+    display: block;
+    width: 55%;
+    margin: 1% auto;
+}
+.trouver_container{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    width: 60%;
+    margin: 2% auto;
+    flex-wrap: wrap;
+}
+.bordered_trouver{
+    border-radius: 5px;
+    border: 1px solid #25A7FF;
+    background: #FFF;
+    padding: 1% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-top: 2%;
+    
+}
+.bordered_trouver:hover{
+    border-radius: 5px;
+    border: 1px solid #00F8BC;
+    background: #FFF;
+    box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.08);
+}
+.text_trouver{
+    display: flex;
+    flex-direction: column;
+}
+.text_trouver h4{
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138%;
+    letter-spacing: 0.24px;
+}
+.text_trouver p{
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0.24px;
+}
+.display_partners{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138%;
+    letter-spacing: 0.24px;
+    margin: 2% auto 10% auto;
+    display: block;
+    text-align: center;
+}
+@media screen and (max-width: 1920px)
+{
+    .section1_trouver {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: 120px auto;
+    }
+    .map_trouver{
+        display: block;
+        width: 70%;
+        margin: 1% auto;
+    }
+    .trouver_container{
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        width: 75%;
+        margin: 2% auto;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1024px){
+    .section1_trouver,.section2_trouver,.trouver_container {
+        flex-direction: column;
+        width: 100%;
+    }
+   
+    .textTrouver1{
+        width: 88%;
+        text-align: center;
+        left: 0;
+        margin: auto;
+    }
+    .trouver_select{
+        width: 60%;
+        margin: 2% auto;
+        padding: 1% 10%;
+    }
+    .bordered_trouver{
+        width: 90%;
+        margin: 2% auto;
+    }
+    .map_trouver{
+        width: 100%;
+    }
+    .img_trouver{
+        margin: auto;
+    }
+    .textTrouver1 h1{
+       
+        font-size: 38px;
+        
+    }
+    .textTrouver1 h2{
+      
+        font-size: 22px;
+      
+    }
+}
+@media (max-width:600px){
+   
+    .textTrouver1 h1{
+       
+        font-size: 28px;
+        
+    }
+    .textTrouver1 h2{
+      
+        font-size: 18px;
+      
+    }
+}

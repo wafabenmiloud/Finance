@@ -1,0 +1,68 @@
+.dem_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/dem_bg.png);
+    padding: 3% 24%;
+    width: 100%;
+    margin: 1% 0 0 0;
+    gap: 20px;
+}
+.dem_text div:first-child{
+    width: 80%;
+}
+.dem_text div:last-child{
+    width:20%;
+}
+.dem_text h6{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 186.5%; /* 37.3px */
+    padding-bottom: 20px;
+}
+.dem_text p{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186.5%; /* 37.3px */ 
+}
+.dem_cards{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10% 0;
+   gap: 110px;
+   width: 80%;
+   margin: auto;
+}
+.dem_text img{
+    width: 100%;
+}
+@media screen and (max-width: 1920px){
+    .dem_text{
+        padding: 3% 20%;
+    }
+    .dem_cards{
+        width: 100%;
+     }
+}
+@media (max-width:600px){
+   .dem_text{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    margin: 1% 0 0 0;
+    gap: 20px;
+} 
+}

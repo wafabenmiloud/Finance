@@ -1,0 +1,731 @@
+.campus_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 0;
+  gap: 80px;
+  width: 55%;
+  margin: auto;
+}
+.campus_header_col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  text-align: end;
+}
+.campus_header_col1 h1 {
+  color: #000;
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%;
+  width: 80%;
+}
+.campus_header_col1 .sp1 {
+  color: #25a7ff;
+}
+.campus_header_col1 p {
+  color: #7b7b7b;
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.5%;
+  width: 80%;
+}
+.campus_line {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: baseline;
+  text-align: start;
+  gap: 2%;
+  width: 80%;
+}
+.campus_line_text h4 {
+  color: #000;
+  text-align: right;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.campus_tic_wrapper {
+  border-radius: 31px;
+  background: #1f50ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 3px;
+}
+.campus_tic {
+  border-radius: 31px;
+  background: #1f50ff;
+  width: 45px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+}
+.campus_tic_icon {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.campus_header_col2 img {
+  width: 100%;
+}
+.campus_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 55%;
+  margin: auto;
+  row-gap: 50px;
+  column-gap: 20px;
+  padding-bottom: 4%;
+}
+.campus_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: 0.5px solid #1f50ff;
+  background: #fff;
+  box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.15);
+  padding: 3% 10%;
+  gap: 29px;
+  width: 70%;
+  margin: auto;
+  width: 85%;
+  height: 412px;
+  flex-shrink: 0;
+}
+.campus_card img{
+  width: 30%;
+}
+.campus_card h1 {
+  color: #1f50ff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118%;
+}
+.campus_card p {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132.5%;
+  letter-spacing: -0.64px;
+}
+.campus_card h4 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132.5%;
+  letter-spacing: -0.56px;
+}
+.campus_card:hover h1 {
+  color: #fff;
+}
+.campus_card:hover p {
+  color: #fff;
+}
+.campus_card:hover h6 {
+  color: #fff;
+}
+.campus_card:hover {
+  border-radius: 25px;
+  background: #1f50ff;
+  box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.15);
+}
+.campus_academy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 0;
+  gap: 80px;
+  width: 55%;
+  margin: auto;
+}
+.campus_academy_col2 h1 {
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%;
+  padding-bottom: 10px;
+}
+.campus_academy_col2 h3 {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.5%;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.sp2 {
+  color: #25a7ff;
+}
+.campus_academy_col2_img,
+.campus_academy_col2_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.campus_academy_col2_content {
+  width: 60%;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: radial-gradient(
+    104.83% 136.27% at 50.09% 50%,
+    #feffff 39.61%,
+    #75c7ff 100%
+  );
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+}
+.campus_academy_col2 img {
+  border-radius: 50%;
+  border: 1px solid #25a7ff;
+  margin-bottom: -8%;
+  margin-left: -40%;
+}
+.campus_academy_col2 h2 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.campus_academy_col2 h5 {
+  color: #959799;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* .campus_academy_col1 img{
+    width: 100%;
+} */
+.campus_academy_col2 p {
+  color: #959799;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.5%;
+}
+.campus_trial_cards {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 6% 0;
+  text-align: end;
+  gap: 20px;
+}
+.campus_trial_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.campus_trial_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+  width: 100%;
+}
+.campus_trial_card_img {
+  width: 100%;
+}
+.campus_trial_card span {
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.32px;
+  padding-bottom: 10px;
+}
+.campus_trial_card h1 {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118.5%;
+  letter-spacing: 0.28px;
+}
+.campus_trial_card p {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118.5%;
+  letter-spacing: 0.24px;
+}
+.campus_trial_card_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.campus_trial_card_img {
+  border-top: 2px solid #0b2840;
+  border-right: 2px solid #0b2840;
+  border-left: 2px solid #0b2840;
+  border-radius: 10px 10px 0 0;
+}
+.campus_trial_card_img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.campus_trial_card_content {
+  border-right: 2px solid #25a7ff;
+  border-left: 2px solid #25a7ff;
+  border-bottom: 2px solid #25a7ff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3% 7%;
+  gap: 10px;
+  text-align: start;
+}
+.campus_trial_card_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.campus_trial_card_btn button {
+  border-radius: 5px;
+  background: linear-gradient(163deg, #25a7ff 0%, #0476c3 100%);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 118.5%;
+  letter-spacing: 0.28px;
+  padding: 10px 20px;
+}
+.campus_video_cards {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 6% 0;
+  text-align: end;
+  gap: 2%;
+}
+.campus_video_row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  text-align: start;
+}
+.campus_video_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+ 
+}
+.campus_video_card h1{
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.4px;
+}
+.campus_video_card h2{
+  color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 131.5%;
+  letter-spacing: 0.32px;
+}
+.campus_video_card_content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15% 10%;
+  gap: 20px;
+  text-align: start;
+}
+.campus_video_card_img{
+  width: 100%;
+}
+.campus_video_card_img img{
+  width: 100%;
+}
+.campus_video_cards h4{
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.5%;
+  text-align: center;
+}
+.campus_video_cards h6{
+  color: #959799;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.9%;
+  padding: 2% 0;
+}
+.campus_library_row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap:20px ;
+column-gap: 20px;
+}
+.campus_library_card{
+  border-radius: 10px;
+background: #FFF;
+box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+text-align: start;
+padding: 2% 2%;
+}
+.campus_library_col1{
+  border-right: 1px solid #959799;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 20px;
+  width: 70%;
+}
+.campus_library_col1 h1{
+  color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+}
+.campus_library_col1 h2{
+  color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 131.5%;
+letter-spacing: 0.28px;
+}
+.campus_library_card_div p {
+  color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118.5%;
+  letter-spacing: 0.24px;
+}
+.campus_library_card_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.campus_library_col2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0 20px;
+  width: 30%;
+}
+.campus_library_col1 button{
+  border-radius: 5px;
+border: 1px solid #25A7FF;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.20);
+color: #25A7FF;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 118.5%;
+letter-spacing: 0.32px;
+padding: 4% 7%;
+}
+.campus_library_col2 button{
+  border-radius: 5px;
+background: linear-gradient(163deg, #25A7FF 0%, #0476C3 100%);
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.20);
+color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 118.5%;
+letter-spacing: 0.32px;
+padding: 10% 14%;
+
+}
+.campus_library_end{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media screen and (max-width: 1920px)
+{
+
+  .campus_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0;
+    gap: 80px;
+    width: 70%;
+    margin: auto;
+  }
+  .campus_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    row-gap: 50px;
+    column-gap: 20px;
+    padding-bottom: 4%;
+  }
+  .campus_academy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0;
+    gap: 80px;
+    width: 70%;
+    margin: auto;
+  }
+  .campus_trial_cards {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 6% 0;
+    text-align: end;
+    gap: 20px;
+  }
+  .campus_video_cards {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 6% 0;
+    text-align: end;
+    gap: 2%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .campus_header {
+    width: 95%;
+  }
+  .campus_academy {
+    width: 95%;
+  }
+  .campus_cards {
+    width: 95%;
+  }
+  .campus_trial_cards {
+    width: 95%;
+  }
+  .campus_video_cards {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .campus_academy_col1 img{
+    width: 100%;
+  }
+  .campus_academy_col2{
+    width: 80%;
+  }
+ 
+  .campus_video_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    width: 100%;
+    padding: 3% 10%;
+  }
+  .campus_header_col1 h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .campus_header_col1 p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .campus_academy_col2 h1 {
+    font-size: 38px;
+  }
+  .campus_academy_col2 h3 {
+    font-size: 16px;
+  }
+  .campus_library_row{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap:20px ;
+  column-gap: 20px;
+  }
+  .campus_video_card_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 7% 8%;
+    gap: 20px;
+    text-align: start;
+  }
+  .campus_trial_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 834px){
+  .campus_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: auto;
+    row-gap: 50px;
+    column-gap: 20px;
+  }
+  .campus_line {
+    width: 100%;
+  }
+  .campus_line_text h4 {
+    font-size: 16px;
+  }
+  .campus_header_col1 h1 {
+    font-size: 25px;
+  }
+  .campus_header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .campus_header_col2{
+    width: 70%;
+  }
+  .campus_academy{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .campus_academy_col2_content {
+    width: 100%;
+  }
+  .campus_academy_col2 img {
+    margin-left: 0%;
+  }
+  .campus_academy_col2 h3 {
+  
+    width: 100%;
+  }
+  .campus_academy_col1 img{
+    width: 60%;
+  }
+  .campus_academy_col1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 600px){
+  .campus_cards {
+    width: 100%;
+  }
+  .campus_trial_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .campus_trial_card{
+        width: 60%;
+  }
+  .campus_library_col1{
+    width: 50%;
+  }
+  .campus_library_col2{
+    width: 50%;
+  }
+}

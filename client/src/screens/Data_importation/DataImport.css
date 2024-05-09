@@ -1,0 +1,92 @@
+.importation{
+    width: 80%;
+    margin: 5% auto 10% auto;
+}
+.importation h1{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+    margin: 2% 0%;
+}
+.import_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.import,.export{
+    border-radius: 5px;
+    border: 0.5px solid #25A7FF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+    width: 48%;
+    height: fit-content;
+    padding: 2% 0;
+}
+.importation h2,.importation label{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 18.705px */
+    display: block;
+    margin: 3%;
+}
+.importation p{
+    color: #0B2840;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.5%; /* 17.36px */   
+    margin: 3%; 
+}
+.importation a{
+    border-radius: 2px;
+    background: #25A7FF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.5%; /* 16.08px */
+    padding: 1%;  
+    margin:1%;  
+}
+.importation input {
+    border-radius: 5px;
+    border: 1px solid #959799;
+    padding: 1.5%;
+    width: 70%;
+    margin:0% 3%;
+}
+.import_links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.import_links{
+    margin-left: 2.5%;
+}
+@media (max-width:600px){
+    .importation h1{
+        font-size: 22px;
+      
+    }
+    .importation{
+        width: 95%;
+    }
+    .import_wrap{
+        flex-direction: column;
+    }
+    .export,.import{
+        width: 90%;
+        margin: 5%;
+    }
+    .importation a{
+       font-size: 12px;
+        padding: 8px;  
+        margin:1%;  
+    }
+}

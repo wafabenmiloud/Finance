@@ -1,0 +1,70 @@
+.test_card_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.test_card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 127.023px;
+  flex-shrink: 0;
+  border-radius: 128px;
+  margin-bottom: -60px;
+  z-index: 9999;
+}
+.test_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background: linear-gradient(215deg, #feffff 0%, #e5f4ff 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+  width: 460px;
+  height: 305px;
+  flex-shrink: 0;
+  gap: 10px;
+  padding: 2% 6% 0 6%;
+
+}
+.test_card2 h2 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.test_card2 h3 {
+  color: #959799;
+  text-align: center;
+  font-size: 12px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.test_card2 h4 {
+  color: #959799;
+  text-align: center;
+  font-size: 14px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.5%;
+}
+@media screen and (max-width: 1024px) {
+  .test_card2 {
+      width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .test_card2 {
+      width: 90%;
+  }
+}

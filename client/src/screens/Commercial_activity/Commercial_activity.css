@@ -1,0 +1,61 @@
+.commercial_content{
+    border-radius: 5px;
+    border: 0.5px solid #25A7FF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);    
+    padding: 3%;
+    margin: 2% auto;
+}
+.commercial_content2{
+    width: 90%;
+    margin: auto;
+}
+
+.p_wrapper_table thead td{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.5%; /* 14.07px */
+    padding: 10px 2%;
+}
+.p_wrapper_table tbody tr{
+    border-bottom: #959799 0.5px solid ;
+
+}
+.p_wrapper_table{
+    border-collapse:collapse;
+    width: 100%;
+}
+.p_wrapper_table tbody td{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */    
+    padding: 10px 2%; 
+}
+@media (max-width:600px) {
+    .commercial_content{
+        padding: 3%;
+        margin: 2% auto;
+    }
+    .commercial_content2{
+        width: 90%;
+        margin: auto;
+    }
+    .p_wrapper_table thead td{
+        font-size: 12px;
+    }
+    .p_wrapper_table tbody td{
+        font-size: 10px;
+    }
+    .parameters_entreprise h2{
+        font-size: 18px;
+    }
+    .parameters_entreprise h3{
+        font-size: 16px;
+    }
+}

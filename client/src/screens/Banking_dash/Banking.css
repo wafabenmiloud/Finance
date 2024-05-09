@@ -1,0 +1,133 @@
+.show_details {
+  display: flex;
+  flex-direction: column;
+}
+.show_details .show_section {
+  border: 0.2px solid #25a7ff;
+  background: radial-gradient(
+    59.3% 57.09% at 42.43% 53.5%,
+    rgba(237, 237, 237, 0.98) 0%,
+    #feffff 100%
+  );
+  box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+  padding: 30px;
+}
+.show_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4% 15%;
+}
+.show_title_btn {
+  border-radius: 2px;
+  background: #25a7ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  padding: 15px 30px;
+  font-weight: 600;
+  line-height: 100.5%;
+}
+#show_section3 {
+  padding: 0 15%;
+}
+.show_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: center;
+}
+.show_section h4 {
+  color: #959799;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.show_section button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.5%; /* 10.05px */
+  border-radius: 2px;
+  background: #25a7ff;
+  padding: 10px;
+}
+
+.show_section .p {
+  color: #7b7b7b;
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  width: 50%;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+}
+
+.submit {
+  border-radius: 2px;
+  background: #25a7ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  padding: 15px 20px;
+  font-weight: 600;
+  line-height: 100.5%; /* 16.08px */
+}
+.reset {
+  border-radius: 2px;
+  background: #fff;
+  color: #25a7ff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  padding: 15px 20px;
+  font-weight: 600;
+  line-height: 100.5%; /* 16.08px */
+  border: 1px solid #25a7ff;
+}
+
+.submit:hover,
+.reset:hover {
+  cursor: pointer;
+}
+.searchrow1 {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0.5px solid #8e8e8e;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.searchrow1 input {
+  width: 80%;
+  background-color: transparent;
+}
+
+.notes_title_row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 0;
+  width: 100%;
+}
+@media (max-width:1800px) {
+  .searchrow1 {
+
+    width: 70%;
+    padding: 0px 10px ;
+
+  }
+}

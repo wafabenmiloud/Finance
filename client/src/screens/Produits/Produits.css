@@ -1,0 +1,112 @@
+.ventes {
+  display: flex;
+  flex-direction: column;
+  padding: 4% 15%;
+}
+.ventes_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ventes_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4% 0;
+}
+.ventes_title_btn {
+  border-radius: 2px;
+  background: #25a7ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  padding: 15px 30px;
+  font-weight: 600;
+  line-height: 100.5%;
+}
+#ventes_section1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0.2px solid #25a7ff;
+  background: radial-gradient(
+    59.3% 57.09% at 42.43% 53.5%,
+    rgba(237, 237, 237, 0.98) 0%,
+    #feffff 100%
+  );
+  box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+  padding: 10px 30px;
+}
+.ventes_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+  padding: 0 0;
+}
+.ventes_buttons button {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+  background-color: transparent;
+  padding: 12px;
+}
+.ventes_buttons button:hover {
+  cursor: pointer;
+}
+.ventes_buttonVisible {
+  border-radius: 2px;
+  border: 0.5px solid #25a7ff;
+  color: #25a7ff !important;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+  padding: 12px;
+}
+#ventes_form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 2px;
+  border: 0.5px solid #25a7ff;
+  background: #efefef;
+  row-gap: 40px;
+  column-gap: 20px;
+  padding-bottom: 4%;
+}
+#ventes_form section {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #25a7ff;
+  background: radial-gradient(
+    59.3% 57.09% at 42.43% 53.5%,
+    rgba(237, 237, 237, 0.98) 0%,
+    #feffff 100%
+  );
+  box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+  padding: 3%;
+  height: fit-content;
+}
+#ventes_form section h4{
+  color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.5%; /* 14.07px */
+padding: 1% 0 3% 0;
+}
+@media   (max-width:1024px) {
+  #ventes_form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

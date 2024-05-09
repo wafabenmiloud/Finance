@@ -1,0 +1,787 @@
+.qui_header {
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qui_header span {
+  color: #25a7ff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%;
+}
+.qui_header h1 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.5%;
+}
+.qui_header_imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.qui_header_img,
+.qui_header_img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qui_header_img1 img {
+  margin-bottom: -12%;
+}
+.qui_blue_left,
+.qui_blue_right {
+  width: 121px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 36.5px;
+  background: linear-gradient(163deg, #25a7ff 0%, #0476c3 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: -7%;
+  z-index: 9999;
+}
+.qui_blue_left {
+  margin-left: -35%;
+}
+.qui_blue_right {
+  margin-right: -35%;
+}
+.qui_cards_section, .qui_imgs_section{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+  gap: 10px;
+
+}
+.qui_cards_section h2, .qui_imgs_section h2,.qui_map h2{
+    color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%;
+}
+.qui_cards_section p,.qui_imgs_section p,.qui_map p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%;
+width: 40%;
+}
+.qui_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 2% 0;
+}
+.qui_cards_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.qui_card_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qui_card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #00f8f7;
+  box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+  margin-bottom: -45px;
+  z-index: 9999;
+}
+.qui_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: radial-gradient(
+    59.3% 57.09% at 42.43% 53.5%,
+    rgba(237, 237, 237, 0.69) 0%,
+    #feffff 100%
+  );
+  box-shadow: 0px 40px 32px 0px rgba(0, 0, 0, 0.13);
+  width: 360px;
+  height: 300px;
+  flex-shrink: 0;
+  gap: 30px;
+  padding: 20% 5% 20% 5%;
+}
+.qui_cards h3 {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 93.523%;
+}
+.qui_cards h4 {
+  font-weight: 400;
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 150.523%;
+}
+.qui_grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 5%;
+  row-gap: 40px;
+  column-gap: 44px;
+}
+.qui_map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.qui_map_lines{
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 50%;
+
+}
+.qui_line_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: baseline;
+  gap: 2%;
+  width: 75%;
+  margin: auto;
+}
+.qui_tic_wrapper1 {
+  border-radius: 31px;
+  background: #00F8F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 3px;
+}
+.qui_tic1 {
+  border-radius: 31px;
+  background: #00F8F7;
+  width: 45px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+}
+.qui_tic_icon1 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.qui_line_text1 h4 {
+  color: #000;
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+.qui_map_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 15% ;
+
+}
+.qui_map_img{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 5%;
+}
+.qui_map_row img{
+  width: 65%;
+}
+.qui_decouvrir{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  gap: 20px;
+}
+.qui_decouvrir h1{
+  color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120.5%;
+}
+.qui_span1{
+  color: #25A7FF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120.5%; /* 38.56px */
+}
+.qui_span2{
+  color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120.5%;
+}
+.qui_decouvrir button{
+  border-radius: 10px;
+background: #25A7FF;
+box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 144.5%; /* 23.12px */
+padding: 20px 30px;
+margin-top: 50px;
+}
+.qui_equipe{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  padding: 90px 0;
+  background-repeat: no-repeat;
+  background-attachment:scroll; 
+  background-size: 100% 100%;
+  background-image: url(../../assets/qui_bg.png);
+  text-align: center;
+  width: 100%;
+}
+.qui_equipe_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  gap: 62px;
+  width: 100%;
+
+}
+.qui_equipe h1{
+  color: #FFF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 37.12px */
+width: 30%;
+}
+.qui_equipe p{
+  color: #FFF;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128%; /* 20.48px */
+}
+.qui_equipe button{
+  border-radius: 35px;
+  background: #1F50FF;
+  color: #FFF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 185%; /* 29.6px */
+padding: 20px 30px;
+}
+.qui_equipe_arrow{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: -55%;
+  margin-bottom: -8%;
+}
+.qui_market{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+.qui_market span{
+  color: #25A7FF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120.5%; /* 38.56px */
+}
+.qui_market h1{
+  color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120.5%;
+}
+.qui_market p{
+  color: #7B7B7B;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.5%; /* 23.12px */
+}
+.qui_horloge_wrapper1{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  gap: 1%;
+}
+.qui_horloge{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6% 0;
+}
+.qui_horloge_row1{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  text-align: center;
+  column-gap: 20px;
+  align-items: flex-end;
+ 
+}
+.qui_horloge_row2{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  text-align: center;
+  column-gap: 20px;
+  align-items: flex-start;
+  
+}
+.qui_divider{
+  height: 8px;
+  background-color: #0B2840;
+  width: 103%;
+}
+.qui_horloge_row1_p p,.qui_horloge_row2_p p{
+  color: #7B7B7B;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.5%; /* 20.23px */
+}
+
+.qui_horloge_row1_blue{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(172deg, #25A7FF 0%, #1F50FF 100%);
+  box-shadow: 5px 10px 32px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 20px 0px 0px;
+  height: fit-content;
+  padding: 3% 0;
+
+}
+.qui_horloge_row1_blue p{
+  color: #FFF;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 37.12px */
+  padding: 2%;
+}
+.qui_horloge_row2_green{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(172deg, #00F8F7 0%, #00F8BC 100%);
+  box-shadow: 5px 10px 32px rgba(0, 0, 0, 0.25);
+  border-radius:  0px 0px 20px 20px;
+  height: fit-content;
+  padding: 6% 0;
+}
+.qui_horloge_row2_green p{
+  color: #FFF;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 37.12px */
+}
+.qui_horloge_bullet{
+  background-color: #25A7FF;
+  border: 8px solid #0B2840;
+  border-radius: 50%;
+  width: 200px;
+  height: 52px;
+  top: -34px;
+  position: relative;
+}
+.qui_testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 13% 0;
+  text-align: center;
+  gap: 100px;
+  width: 100%;
+}
+.qui_testimonials_cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.qui_testimonials h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 113.5%; /* 36.32px */
+  width: 65%;
+}
+.qui_testimonials span {
+  color: #25A7FF;
+}
+.qui_horloge_wrapper2{
+  display: none;
+  }
+ 
+  @media screen and (max-width: 1920px)
+{
+
+  .qui_cards_section p,.qui_imgs_section p,.qui_map p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%;
+width: 60%;
+}
+.qui_decouvrir{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  gap: 20px;
+}
+.qui_horloge_wrapper1{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  gap: 1%;
+}
+}
+@media screen and (max-width: 1279px) {
+  .qui_header span {
+    font-size: 38px;
+  }
+  .qui_header h1 {
+    font-size: 38px;
+  }
+  .qui_header_imgs {
+    margin-top: 2%;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .qui_header_img,
+  .qui_header_img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 0;
+  }
+  .qui_header_img1 img {
+    margin-bottom: 0%;
+    width: 70%;
+  }
+  .qui_header_img img {
+    width: 70%;
+  }
+  .qui_blue_left,
+  .qui_blue_right {
+   display: none;
+  }
+
+  .qui_cards_section h2, .qui_imgs_section h2,.qui_map h2{
+  font-size: 30px;
+  
+  }
+  .qui_cards_section p,.qui_imgs_section p,.qui_map p{
+  font-size: 14px;
+  width: 60%;
+  }
+  .qui_cards {
+    gap: 36px;
+  }
+  .qui_cards_row{
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .qui_cards h3 {
+    font-size: 14px;
+  }
+  .qui_cards h4 {
+    font-size: 12px;
+  }
+  .qui_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+    row-gap: 40px;
+    column-gap: 44px;
+  }
+  .qui_map_lines{
+    gap: 24px;
+    width: 90%;
+  
+  }
+  .qui_line_reverse {
+    width: 95%;
+    margin: auto;
+  }
+  .qui_line_text1 h4 {
+    font-size: 14px;
+  }
+  .qui_map_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5% ;
+  
+  }
+  .qui_map_img{
+    padding-top: 5%;
+    width: 60%;
+    margin: auto;
+  }
+  .qui_map_row img{
+    width: 65%;
+  }
+  .qui_decouvrir{
+    width: 90%;
+  }
+  .qui_decouvrir h1{
+  font-size: 20px;
+  }
+  .qui_span1{
+  font-size: 24px;
+  }
+  .qui_span2{
+  font-size: 38px;
+
+  }
+  .qui_decouvrir button{
+  padding: 15px 20px;
+  margin-top: 20px;
+  }
+  .qui_equipe_content{
+    gap: 22px;
+    width: 100%;
+  }
+  .qui_equipe h1{
+  font-size: 22px;
+  width: 80%;
+  }
+  .qui_equipe p{
+    font-size: 14px;
+  }
+  .qui_equipe button{
+  font-size: 14px;
+  padding: 12px 20px;
+  }
+  .qui_equipe_arrow{
+    width: 40%;
+    margin-left: -45%;
+    margin-bottom: -20%;
+  }
+  .qui_equipe_arrow img{
+    width: 80%;
+  }
+  .qui_market{
+    padding-top: 10%;
+  }
+  .qui_market span{
+  font-size: 22px;
+  
+  }
+  .qui_market h1{
+  font-size: 22px;
+  }
+  .qui_market p{
+  font-size: 14px;
+  }
+
+  .qui_horloge_wrapper1{
+    width: 90%;
+    margin: auto;
+    gap: 1%;
+  }
+  .qui_horloge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 0;
+  }
+  .qui_horloge_row1_blue p{
+    font-size: 18px ;
+    padding: 10%;
+  }
+  .qui_horloge_row2_green p{
+    font-size: 18px ;
+    padding: 15%;
+  }
+  .qui_horloge_bullet{
+    border: 6px solid #0B2840;
+    border-radius: 50%;
+    width: 200px;
+    height: 28px;
+    top: -40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .qui_testimonials h1 {
+    font-size: 25px;
+    width: 85%;
+  }
+  .qui_horloge_wrapper2 .qui_horloge_row1{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    column-gap: 20px;
+    align-items: flex-start;
+  }
+  .qui_horloge_wrapper2 .qui_horloge_row2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 20px;
+    align-items: flex-start;
+  }
+  .qui_horloge_wrapper2 .qui_horloge_bullet{
+   display: none;
+  }
+
+  .qui_horloge_wrapper2 .qui_horloge_row1_blue{
+  border-radius: 20px;
+  padding: 3% 4%;
+  }
+  .qui_horloge_wrapper2 .qui_horloge_row2_green{
+  padding: 3% 4%;
+  border-radius: 20px;
+
+  }
+  .qui_card2{
+    padding: 0;
+    height: 300px;
+  }
+  .qui_market{
+    text-align: center;
+  }
+.qui_horloge_wrapper1{
+display: none;
+}
+.qui_horloge_wrapper2{
+  display: block;
+  padding: 0 10px;
+  }
+  .qui_horloge_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+  }
+  .qui_horloge_row1_blue p{
+    font-size: 14px ;
+    padding: 10%;
+  }
+  .qui_horloge_row2_green p{
+    font-size: 14px ;
+    padding: 15%;
+  }
+  .qui_horloge{
+   gap: 20px;
+  }
+}

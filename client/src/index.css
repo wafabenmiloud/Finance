@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    
+
+    --color-bg:#0B2840;
+    --color-bg-variant:#25A7FF;
+    --color-primary:#00F8F7;
+    --color-white:#fff;
+    --color-black:#000;
+    --transition: all 400ms ease ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--color-white);
+    color: var(--color-black);
+    line-height: 1.7;
+}

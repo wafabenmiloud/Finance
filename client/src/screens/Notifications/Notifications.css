@@ -1,0 +1,26 @@
+.notif_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+  width: 55%;
+  margin: auto;
+
+}
+.notif_wrapper h5{
+  color: #434343;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 100.5%; /* 20.1px */
+align-self: flex-start;
+}
+@media (max-width:600px) {
+  .notif_wrapper {
+    
+    width: 85%;
+  
+  }
+}

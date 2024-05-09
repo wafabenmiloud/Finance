@@ -1,0 +1,42 @@
+.products_updates{
+    width: 54%;
+    margin: 5% auto 20% auto;
+}
+.products_updates h1{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+    margin: 5%;
+
+}
+.products_updates h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-top: 2px solid black;
+    margin: 2%;
+    padding:1%  0% ;
+
+}
+.products_updates p{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%; /* 26.4px */
+    margin: 2%;
+
+}
+@media (max-width:600px){
+    .products_updates {
+        width: 80%;
+    }
+}

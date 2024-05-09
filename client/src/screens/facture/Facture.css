@@ -1,0 +1,684 @@
+.facture_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+  width: 38%;
+  margin: auto;
+  text-align: center;
+}
+.facture_title h1 {
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+}
+.facture_title span {
+  color: #25a7ff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+}
+
+.facture_test_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 55%;
+  margin: auto;
+}
+.facture_card {
+  border-radius: 5px;
+  background: radial-gradient(
+    59.3% 57.09% at 42.43% 53.5%,
+    rgba(237, 237, 237, 0.98) 0%,
+    #feffff 100%
+  );
+  box-shadow: 0px 40px 32px 0px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10% 2%;
+}
+.facture_card h5 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 93.523%; /* 14.964px */
+}
+.facture_card h6 {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 14.07px */
+}
+.facture_card a {
+  color: #0b2840;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  border-radius: 5px;
+  background: #00f8f7;
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 15px;
+}
+
+.facture_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin: auto;
+  padding: 5% 0;
+  gap: 30px;
+}
+.facture_details_col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 50%;
+}
+.facture_details_col2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.facture_details_col1_green {
+  border-radius: 36.5px;
+  background: linear-gradient(160deg, #00f8f7 0%, #00f8bc 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+  width: 90px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-bottom: -8%;
+  margin-left: -85%;
+  z-index: 9999;
+}
+.facture_details p {
+  color: #7b7b7b;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 14.07px */
+}
+.facture_border {
+  border-bottom: 1px solid #959799;
+  padding: 20px 0;
+  width: 100%;
+}
+.facture_details_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.facture_number {
+  border-radius: 17.5px;
+  background: #0b2840;
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.5%; /* 14.07px */
+  padding: 8px 10px;
+}
+.facture_padd {
+  padding: 10px 0 10px 8px;
+}
+.facture_conseils {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  background-image: url(../../assets/facture_bg.png);
+  padding: 4%;
+}
+.facture_conseils h1 {
+  color: #25a7ff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148.5%; /* 47.52px */
+}
+.facture_conseils p {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148.5%; /* 20.79px */
+  width: 40%;
+  padding-top: 10px;
+}
+.facture_conseils_lines {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 40px;
+  width: 60%;
+}
+.facture_line_normal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.facture_tic_wrapper {
+  border-radius: 31px;
+  background: #25a7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 3px;
+}
+.facture_tic {
+  border-radius: 31px;
+  background: #25a7ff;
+  width: 35px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+}
+.facture_tic_icon {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.facture_line_text h4 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+.facture_logiciel_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4% 0;
+  width: 48%;
+  margin: auto;
+}
+.facture_logiciel_text h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+  padding-bottom: 40px;
+}
+.facture_logiciel_text p {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.4%; /* 20.544px */
+}
+.facture_logiciel_table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0;
+}
+.facture_logiciel_table table {
+  width: 55%;
+  text-align: start;
+  border-collapse: collapse;
+}
+.facture_logiciel_table thead {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.15);
+  padding-bottom: 10px;
+}
+.facture_logiciel_table thead td {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.facture_logiciel_table tbody tr {
+  border-bottom: 1px solid black;
+}
+.facture_logiciel_table tbody tr:last-child {
+  border-bottom: none;
+}
+.facture_logiciel_table tbody td {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%; /* 21.12px */
+  padding: 20px 40px;
+}
+
+.facture_logiciel_table thead td {
+  padding: 20px 30px;
+}
+.facture_steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+
+  background-position: center;
+  background-image: url(../../assets/testimonials.png);
+  padding: 4% 18%;
+}
+.facture_steps h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+}
+.facture_steps_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+.facture_step_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.facture_step_card_row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border-radius: 5px;
+  background: #0b2840;
+  box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 93.523%; /* 22.445px */
+  padding: 10px 12px;
+  margin-bottom: -25px;
+  z-index: 9999;
+}
+.facture_step_card_row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border-radius: 5px;
+  background: radial-gradient(
+    59.3% 57.09% at 42.43% 53.5%,
+    rgba(237, 237, 237, 0.98) 0%,
+    #feffff 100%
+  );
+  box-shadow: 0px 40px 32px 0px rgba(0, 0, 0, 0.13);
+  height: 254px;
+  padding: 15% 4%;
+}
+.facture_step_card_row2 h5 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 93.523%; /* 14.964px */
+}
+.facture_step_card_row2 h6 {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+.facture_steps_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin-top: -20px;
+}
+.facture_steps_img img{
+    width: 40%;
+}
+.facture_steps_img p {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 15.96px */
+}
+.facture_details img {
+  width: 100%;
+}
+.facture_test_cards2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  gap: 20px;
+  width: 60%;
+  margin: auto;
+}
+.facture_test_cards2 h1{
+    color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 46.4px */
+}
+.facture_caards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  text-align: center;
+  row-gap: 60px;
+  column-gap: 20px;
+}
+@media screen and (max-width: 1920px){
+  .facture_test_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  .facture_logiciel_table table {
+    width: 70%;
+    text-align: start;
+    border-collapse: collapse;
+  }
+  .facture_steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+  
+    background-position: center;
+    background-image: url(../../assets/testimonials.png);
+    padding: 4% 0;
+  }
+  .facture_test_cards2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width:1024px){
+    .facture_title {
+        width: 90%;
+      }
+      .facture_title h1 {
+        font-size: 30px;
+      }
+      .facture_title span {
+        font-size: 30px;
+      }
+      
+      .facture_test_cards {
+        width: 97%;
+      }
+    
+      .facture_card a {
+
+        padding: 6px 10px;
+      }
+      
+      .facture_details {
+        width: 85%;
+      }
+
+      .facture_padd {
+        padding: 10px 0 10px 8px;
+      }
+      .facture_conseils {
+        padding: 4% 0;
+      }
+      .facture_conseils h1 {
+    
+        font-size: 28px;
+       
+      }
+      .facture_conseils p {
+        width: 95%;
+        padding-top: 10px;
+      }
+      .facture_conseils_lines {
+      
+        width: 90%;
+      }
+      .facture_line_normal {
+        gap: 20px;
+      }
+      .facture_line_text h4 {
+        font-size: 16px;
+      }
+      .facture_logiciel_text {
+        width: 95%;
+      }
+      .facture_logiciel_text h1 {
+        font-size: 30px;
+      }
+      .facture_logiciel_table table {
+        width: 100%;
+      }
+      .facture_logiciel_table thead td {
+        font-size: 18px;
+      }
+      .facture_logiciel_table tbody td {
+        font-size: 14px;
+      }
+      .facture_steps h1 {
+        font-size: 30px;
+      }
+      .facture_steps_cards {
+        width: 98%;
+      }
+      .facture_step_card_row2 {
+        padding: 15% 1%;
+      }
+      .facture_steps_img img{
+          width: 60%;
+      }
+      .facture_test_cards2 h1{
+      font-size: 30px;
+      }
+      .facture_caards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
+@media (max-width:600px){
+    .facture_title {
+        width: 95%;
+      }  
+      .facture_test_cards {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      
+      .facture_details {
+        padding-top: 150px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .facture_details_col1 {
+      
+        width: 90%;
+      }
+      .facture_details_col2 {
+    
+        width: 90%;
+        
+      }
+     
+      .facture_logiciel_table table {
+        width: 100%;
+       
+      }
+      .facture_logiciel_table thead {
+      
+        padding-bottom: 0px;
+      }
+      .facture_logiciel_table thead td {
+        
+        font-size: 16px;
+   
+      }
+ 
+      .facture_logiciel_table tbody td {
+        color: #7b7b7b;
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 132%; /* 21.12px */
+        padding: 0px 5px;
+      }
+      
+      .facture_logiciel_table thead td {
+        padding: 5px 30px;
+      }
+      .facture_steps_cards {
+        width: 98%;
+        grid-template-columns: repeat(2, 1fr);
+
+      }
+      .facture_step_card_row2 {
+        padding: 15% 1%;
+      }
+      .facture_steps_img img{
+          width: 60%;
+      }
+      .facture_test_cards2 h1{
+      font-size: 30px;
+      }
+      .facture_caards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
+@media (max-width:400px){
+  
+    
+      .facture_steps_cards {
+        width: 78%;
+       display: flex;
+       flex-direction: column;
+      }
+      .facture_step_card_row2 {
+        height: 204px;
+      }
+     
+      .facture_steps_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        margin-top: -10px;
+      }
+      .facture_steps_img img{
+          width: 90%;
+      }
+      .facture_caards {
+        display: flex;
+        flex-direction: column;
+              }
+
+}

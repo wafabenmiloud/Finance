@@ -1,0 +1,412 @@
+.header1_advantages h2 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%; /* 48.96px */
+}
+.header1_advantages span {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%;
+}
+.architect_diagram_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #25a7ff;
+  text-align: center;
+  width: 100%;
+  padding: 4% 23%;
+  gap: 15px;
+}
+.architect_h1 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+}
+.architect_span {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+}
+.architect_p {
+  color: #d9d9d9;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128.5%; /* 25.7px */
+}
+.architect_diagram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  gap: 26px;
+  padding: 4% 0;
+}
+.architect_diagram .diagram_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 0;
+}
+.architect_diagram .line {
+  position: absolute;
+  width: 1px;
+  height: 480px;
+  background-color: transparent;
+  border: 1px dashed #fff;
+  left: 48.1%;
+}
+.architect_diagram .content {
+  border-radius: 10px;
+  background: #f5f5f5;
+  box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  width: 100%;
+}
+.diagram_line {
+  height: 0;
+  border-bottom: 1px dashed white;
+  width: 15%;
+}
+.architect_diagram .diagram_content {
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%; /* 25.5px */
+}
+.architect_diagram_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: end;
+  width: 45%;
+  gap: 15px;
+}
+.architect_diagram_left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.architect_diagram_right h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 103.023%; /* 32.967px */
+  padding-bottom: 50px;
+  width: 80%;
+}
+.architect_diagram_right h2 {
+  color: #0b2840;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 93.523%; /* 22.445px */
+}
+.architect_diagram_right h3 {
+  color: #0b2840;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105.023%; /* 18.904px */
+  width: 80%;
+}
+.arch_tic_wrapper {
+  border-radius: 36px;
+  border: 2px solid #000;
+  background: #00f8bc;
+  box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px;
+  z-index: 9999;
+}
+.arch_tic_icon {
+  font-size: 1.5rem;
+  color: #0b2840;
+  font-weight: bolder;
+}
+.architect_imgs{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+.architect_imgs p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%;
+width: 50%;
+}
+.architect_imgs_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 20px;
+}
+
+
+.architect_trucs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/trucs_bg.png);
+    padding: 0% 10%;
+    width: 100%;
+}
+.architect_trucs h2{
+    color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 118%; /* 47.2px */
+padding-bottom: 4%;
+width: 80%;
+}
+.architect_trucs img{
+    width: 100%;
+}
+.trucs_btn{
+    border-radius: 5px;
+background: #00F8F7;
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+padding: 3% 5%;
+color: #0B2840;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 132.023%; /* 23.764px */
+}
+.architect_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 21%;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/artisanat_bg.png);
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+}
+.architect_content h2{
+ color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.5%; /* 39.52px */
+}
+.architect_content span{
+ color: #25A7FF;
+font-family: Plus Jakarta Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 123.5%;
+}
+.architect_test_card_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.architect_test_card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 127.023px;
+  flex-shrink: 0;
+  border-radius: 128px;
+  margin-bottom: -60px;
+  z-index: 9999;
+}
+.architect_test_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background: linear-gradient(215deg, #feffff 0%, #e5f4ff 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+  width: 460px;
+  height: 385px;
+  flex-shrink: 0;
+  gap: 10px;
+  padding: 5%;
+
+}
+.architect_test_card2 h2 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.architect_test_card2 h3 {
+  color: #959799;
+  text-align: center;
+  font-size: 12px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.architect_test_card2 h4 {
+  color: #959799;
+  text-align: center;
+  font-size: 14px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.5%;
+}
+@media screen and (max-width: 1920px){
+  .architect_diagram_wrapper {
+    padding: 4% 15%;
+  }
+}
+@media screen and (max-width: 1520px){
+.architect_imgs_row{
+   flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 1024px) {
+  .architect_test_card2 {
+      width: 60%;
+  }
+
+  .architect_test_card1 img{
+
+  width: 15%;
+
+}
+}
+@media screen and (max-width: 768px) {
+  .architect_test_card2 {
+      width: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+.architect_diagram_wrapper {
+        padding: 4% 3%;
+      }
+  .architect_diagram {
+    padding: 2% 0%;
+  }
+
+  .architect_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 11%;    
+}
+}
+@media screen and (max-width: 1080px){
+    .architect_diagram .line {
+        position: absolute;
+        width: 1px;
+        height: 550px;
+        background-color: transparent;
+        border: 1px dashed #fff;
+        left: 48.1%;
+      }
+   
+}
+@media screen and (max-width: 834px) {
+    .architect_diagram {
+        flex-direction: column;
+        gap: 50px;
+      }
+      .architect_diagram_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        gap: 25px;
+      }
+      .architect_diagram_left {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .architect_diagram .line {
+        visibility: hidden;
+      }
+      .architect_trucs h2{
+    font-size: 30px;
+    width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+  .architect_trucs h2{
+    font-size: 20px;
+    width: 100%;
+    }
+    .architect_test_card1 img{
+
+      width: 25%;
+    
+    }
+}

@@ -1,0 +1,81 @@
+.vos_entreprise{
+    width: 80%;
+    margin: 5% auto;
+}
+.vos_entreprise h1{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */    
+}
+.company_name{
+    border-radius: 5px;
+    border: 0.5px solid #25A7FF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+    display: flex;    
+    margin: 2% auto;
+    padding: 4%;
+    align-items: center;
+    gap: 5%;
+
+}
+.company_logo{
+    display: flex;
+    flex-direction: column;
+
+}
+.company_logo b{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 15.75px */
+}
+.company_text{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.company_text h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 18.705px */    
+}
+.company_text p{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 22.05px */    
+}
+@media screen and (max-width: 600px){
+    .vos_entreprise{
+        width: 90%;
+        margin: 5% auto;
+    }
+    .vos_entreprise h1{
+        font-size: 25px;
+        margin-bottom: 20px;  
+    }
+
+    .company_text h2{
+     
+        font-size: 18px;
+        
+    }
+    .company_text p{
+        
+        font-size: 14px;
+          
+    }
+}

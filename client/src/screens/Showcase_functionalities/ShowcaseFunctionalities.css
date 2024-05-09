@@ -1,0 +1,24 @@
+.text_showcase{
+    width: 570px;
+    left: -255px;
+}
+.header1_question_showcase{
+    margin: 5%;
+}
+.showcase_cards{
+    margin-top: 300px;
+}
+@media (max-width:1024px){
+    .text_showcase{
+        width: 90%;
+        left: 0;
+        text-align: center !important;
+    }
+    .text_showcase .rectangle{
+        left: 10px;
+        top: -30px;
+    }
+    .header1_question_showcase h2{
+        width: 100%;
+    }
+}

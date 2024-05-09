@@ -1,0 +1,237 @@
+.newsletter_sub{
+    margin: 5% auto;
+    width: 70%;
+    text-align: center;
+}
+.newsletter_sub form{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    margin: 3% auto 8% auto;
+    padding: 1%;
+}
+.newsletter_sub input{
+    border-radius: 2px;
+    border: 1px solid #25A7FF;
+    width: 40%;
+    padding: 2%;
+    margin: 2%;
+}
+.newsletter_mail{
+    width: 84% !important;
+}
+.newsletter_sub h2{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 60px */
+}
+.newsletter_sub p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+    margin: 1%;
+    width: 75%;
+    margin: auto;
+}
+.newsletter_plan{
+    display: flex;
+    gap: 2%;
+    text-align: left;
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+.newsletter_accountant,.newsletter_regular{
+    border-radius: 15px;
+    height:585px ;
+    position: relative;
+    
+}
+ .newsletter_accountant_active,.newsletter_regular_active{
+    border: 2px solid #25A7FF;
+    width: 110% !important;
+    
+}
+.newsletter_accountant{
+    background-image: linear-gradient(180deg, rgba(37, 167, 255, 0.00) 0%, #1F50FF 100%), 
+    url('../../assets//background/accountant\ insider.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: table;
+    width: 94%;
+
+}
+.newsletter_regular{
+    background-image:linear-gradient(180deg, rgba(37, 167, 255, 0.00) 0%, #1F50FF 100%),
+     url('../../assets//background/regular\ insider.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 94%;
+    display: table;
+
+}
+.newsletter_plan h3{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104%; /* 37.44px */
+}
+.newsletter_plan p{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+    text-align: left;
+    
+}
+.newsletter_plan_text{
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 5% 2%;
+}
+.newsletter_accountant img {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.newsletter_regular img{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.news_cancel{
+    color: #0B2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167%; /* 33.4px */
+    border-radius: 5px;
+    border: 1px solid #0B2840;
+    padding: 20px 40px;
+}
+.news_save{
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167%; /* 33.4px */
+    border-radius: 5px;
+    background: #0B2840;
+    padding: 20px 35px;
+    margin: 2%;
+}
+
+@media screen and (max-width: 1920px)
+{
+.newsletter_sub p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+    margin: 1%;
+    width: 100%;
+    margin: auto;
+}
+.newsletter_plan{
+    display: flex;
+    gap: 2%;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+}
+@media (max-width:600px){
+    .news_cancel{
+      
+        font-size: 16px;
+      
+        padding: 15px 30px;
+    }
+    .news_save{
+        font-size: 16px;
+      
+        padding: 15px 30px;
+    }
+    .newsletter_sub {
+        width: 100%;
+    }
+    .newsletter_sub form{
+        width: 90%;
+    }
+    .newsletter_plan{
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+.newsletter_accountant,.newsletter_regular{
+    border-radius: 15px;
+    height:400px ;
+    position: relative;
+    
+}
+
+.newsletter_accountant{
+   
+    width: 94%;
+    margin: auto;
+
+}
+.newsletter_regular{
+  
+    width: 94%;
+    margin: auto;
+
+}
+    .newsletter_accountant_active,
+    .newsletter_regular_active{
+        
+        width: 94% !important;
+        
+    }
+    .newsletter_submit{
+        margin: 15% auto;
+    }
+    .newsletter_sub h2{
+       
+        font-size: 30px;
+       
+    }
+    .newsletter_sub p{
+       
+        font-size: 18px;
+      
+        width: 85%;
+    }
+    .newsletter_plan h3{
+     
+        font-size: 26px;
+      
+    }
+    .newsletter_plan p{
+       
+        font-size: 14px;
+     
+        
+    }
+}

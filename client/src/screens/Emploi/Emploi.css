@@ -1,0 +1,959 @@
+.emploi_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0;
+  width: 50%;
+  margin: auto;
+  gap: 15px;
+}
+.emploi_title h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+}
+.emploi_title span {
+  color: #25a7ff;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+}
+.emploi_title p {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.5%; /* 28.35px */
+}
+.emploi_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  background-image: url(../../assets/dem_bg.png);
+  padding: 3% 22%;
+  width: 100%;
+  gap: 10px;
+}
+.emploi_text h6 {
+  color: #25a7ff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148.5%; /* 41.58px */
+}
+.emploi_text p {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 34.08px */
+}
+.emploi_text2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  background-image: url(../../assets/dem_bg.png);
+  padding: 3% 23%;
+  width: 100%;
+  gap: 30px;
+}
+.emploi_text2 h6 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104%; /* 37.44px */
+}
+.emploi_text2 p {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.5%; /* 28.35px */
+}
+.emploi_text2 button {
+  border-radius: 5px;
+  background: #25a7ff;
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 167%; /* 23.38px */
+  padding: 8px 22px;
+}
+.emploi_text2_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.emploi_text2_row img {
+  width: 100%;
+}
+.emploi_text2_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.emploi_text_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 85%;
+  margin: auto;
+}
+.emploi_text_row img {
+  width: 30%;
+}
+.emploi_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+.cardd_wrapper h3 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 93.523%; /* 14.964px */
+  padding: 0 3%;
+}
+.emploi_pricing {
+  background: url("../../assets/background/Pricing\ bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 5% 13%;
+}
+
+.emploi_pricing_title {
+  display: flex;
+  justify-content: center;
+}
+
+.emploi_pricing_title img {
+  position: relative;
+  top: -50px;
+}
+
+.emploi_pricing_title h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%; /* 65.28px */
+}
+.emploi_cards_pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  gap: 23px;
+}
+.emploi_card_pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 23px;
+  width: 20%;
+  height: 300px;
+}
+
+.emploi_card_pricing img {
+  width: 84px;
+  height: 84px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+  padding: 8px;
+}
+
+.emploi_card_pricing p {
+  color: #d9d9d9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 93.523%; /* 13.093px */
+}
+
+.emploi_card_pricing h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 93.523%; /* 14.964px */
+}
+.emploi_rh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+.emploi_rh_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.emploi_rh_row img {
+  width: 100%;
+}
+.emploi_rh_row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.emploi_rh h1 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.emploi_rh p {
+  color: #25a7ff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 185%; /* 37px */
+}
+.emploi_rh h3 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 191%; /* 61.12px */
+}
+.emploi_table{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0;
+}
+.emploi_table table{
+    width: 55%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.emploi_table thead{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.15);
+padding-bottom: 10px;
+}
+.emploi_table thead td{
+    color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.emploi_table tbody tr{
+   height: 50px;
+   border-bottom: 1px solid black;
+}
+.emploi_table tbody tr:last-child{
+  border-bottom: none;
+}
+.emploi_table tbody td{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 132%; /* 21.12px */
+padding: 40px 30px;
+
+}
+.emploi_table tbody button{
+    border-radius: 5px;
+background: #25A7FF;
+color: #FFF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 167%; /* 23.38px */
+padding: 10px;
+}
+.emploi_table thead td{
+    padding: 20px 30px;
+}
+.emploi_table_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 1920px)
+{
+
+  .emploi_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/dem_bg.png);
+    padding: 3% 18%;
+    width: 100%;
+    gap: 10px;
+  }
+  .emploi_table table{
+      width: 80%;
+      text-align: center;
+      border-collapse: collapse;
+  }
+  .emploi_text2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/dem_bg.png);
+    padding: 3% 18%;
+    width: 100%;
+    gap: 30px;
+  }
+  .emploi_text_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+  }
+  .emploi_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  .emploi_pricing {
+    background: url("../../assets/background/Pricing\ bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5% 0%;
+  }
+}
+@media (max-width: 1280px) {
+  .emploi_title {
+    width: 80%;
+  }
+  .emploi_title h1 {
+    font-size: 30px;
+  }
+  .emploi_title span {
+    font-size: 30px;
+  }
+  .emploi_title p {
+    font-size: 18px;
+  }
+  .emploi_text {
+    padding: 3% 8%;
+  }
+  .emploi_text h6 {
+    font-size: 28px;
+  }
+  .emploi_text p {
+    font-size: 24px;
+  }
+  .emploi_text2 {
+    padding: 3% 4%;
+  }
+  .emploi_text2 h6 {
+    font-size: 32px;
+  }
+  .emploi_text2 p {
+    font-size: 18px;
+  }
+
+  .emploi_text2_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .emploi_text2_row img {
+    width: 50%;
+  }
+  .emploi_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  .cardd_wrapper h3 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+    padding: 0 3%;
+  }
+  .emploi_pricing {
+    background: url("../../assets/background/Pricing\ bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5% 0;
+  }
+
+  .emploi_pricing_title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .emploi_pricing_title img {
+    position: relative;
+    top: -50px;
+  }
+
+  .emploi_pricing_title h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136%; /* 65.28px */
+  }
+  .emploi_cards_pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    gap: 23px;
+  }
+  .emploi_card_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    width: 20%;
+    height: 400px;
+  }
+
+  .emploi_card_pricing img {
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+    padding: 8px;
+  }
+
+  .emploi_card_pricing p {
+    color: #d9d9d9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.523%; /* 13.093px */
+  }
+
+  .emploi_card_pricing h5 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+  }
+  .emploi_rh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .emploi_rh_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  .emploi_rh_row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .emploi_rh h1 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .emploi_rh p {
+    color: #25a7ff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 185%; /* 37px */
+  }
+  .emploi_rh h3 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 191%; /* 61.12px */
+  }
+}
+@media (max-width: 768px) {
+  .emploi_title {
+    width: 90%;
+  }
+  .emploi_title h1 {
+    font-size: 24px;
+  }
+  .emploi_title span {
+    font-size: 24px;
+  }
+  .emploi_title p {
+    font-size: 16px;
+  }
+  .emploi_text {
+    padding: 3% 2%;
+  }
+  .emploi_text h6 {
+    font-size: 24px;
+  }
+  .emploi_text p {
+    font-size: 18px;
+  }
+  .emploi_text2 {
+    padding: 3% 2%;
+  }
+  .emploi_text2 h6 {
+    font-size: 22px;
+  }
+  .emploi_text2 p {
+    font-size: 16px;
+  }
+
+  .emploi_text2_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .emploi_text2_row img {
+    width: 80%;
+  }
+  .emploi_cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  .cardd_wrapper h3 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+    padding: 0% 3%;
+  }
+  .emploi_pricing {
+    background: url("../../assets/background/Pricing\ bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5% 0;
+  }
+
+  .emploi_pricing_title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .emploi_pricing_title img {
+    position: relative;
+    top: -50px;
+  }
+
+  .emploi_pricing_title h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136%; /* 65.28px */
+  }
+  .emploi_cards_pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+
+    gap: 10px;
+  }
+  .emploi_card_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 20%;
+    height: 400px;
+  }
+
+  .emploi_card_pricing img {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+    padding: 8px;
+  }
+
+  .emploi_card_pricing p {
+    color: #d9d9d9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.523%; /* 13.093px */
+  }
+
+  .emploi_card_pricing h5 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+  }
+  .emploi_rh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .emploi_rh_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+  .emploi_rh_row img {
+    width: 50%;
+  }
+  .emploi_rh_row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .emploi_rh h1 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .emploi_rh p {
+    color: #25a7ff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 185%; /* 37px */
+  }
+  .emploi_rh h3 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 191%; /* 61.12px */
+  }
+  .emploi_table{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0;
+}
+.emploi_table table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.emploi_table thead{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.15);
+padding-bottom: 0;
+}
+.emploi_table thead td{
+    color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 0;
+}
+.emploi_table tbody tr{
+   height: 50px;
+   border-bottom: 1px solid black;
+}
+.emploi_table tbody tr:last-child{
+  border-bottom: none;
+}
+.emploi_table tbody td{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 132%; /* 21.12px */
+padding: 10px 0;
+
+}
+.emploi_table tbody button{
+    border-radius: 5px;
+background: #25A7FF;
+color: #FFF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 167%; /* 23.38px */
+padding: 2px;
+}
+.emploi_table thead td{
+    padding: 0px;
+}
+.emploi_table_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media (max-width: 600px) {
+  .emploi_pricing_title h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136%; /* 65.28px */
+  }
+ 
+  .emploi_pricing_title img {
+    position: relative;
+    top: 0px;
+    width: 30%;
+  }
+  .emploi_cards_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    gap: 10px;
+  }
+  .emploi_card_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    height: 200px;
+  }
+
+  .emploi_card_pricing img {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+    padding: 8px;
+  }
+
+  .emploi_card_pricing p {
+    color: #d9d9d9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.523%; /* 13.093px */
+  }
+
+  .emploi_card_pricing h5 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+  }
+  .emploi_rh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .emploi_rh_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+  .emploi_rh_row img {
+    width: 50%;
+  }
+  .emploi_rh_row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .emploi_rh h1 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .emploi_rh p {
+    color: #25a7ff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 185%; /* 37px */
+  }
+  .emploi_rh h3 {
+    color: #0b2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 191%; /* 61.12px */
+  }
+ 
+}

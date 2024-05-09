@@ -1,0 +1,54 @@
+.online_accounting h1{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    padding-bottom: 0px;
+}
+.online_accounting .stock_header .p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+}
+.onlineaccounting_cards{
+    width: 90% ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.onlineaccounting_cards .stock_card_normal,.onlineaccounting_cards .stock_card_reverse{
+    margin: auto;
+} 
+.online_accounting .testimonials h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%; /* 47.2px */
+}
+.online_accounting .testimonials h1 span{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+}
+.online_accounting .testimonials{
+    padding: 7% 0%;
+    margin: 5% auto;
+}
+@media (max-width:600px){
+    .stock_card_normal_content h1, .stock_card_reverse_content h1{
+        font-size: 25px;
+    }
+}

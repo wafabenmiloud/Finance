@@ -1,0 +1,222 @@
+.nav2_dash .info_list img {
+  border-left: solid white 1px;
+  padding: 0 2%;
+  width: 50px;
+  height: 35px;
+}
+.nav2_dash .modal-content-inner {
+  display: flex;
+  flex-direction: column;
+  width: 11%;
+  position: absolute;
+  top: 65px;
+  left: 78%;
+  border-radius: 5px;
+  background: #fff;
+  color: #8e8e8e !important;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.023%; /* 15.843px */
+  padding: 0.5%;
+}
+.nav2_dash .modal-content-inner a {
+  margin: 2%;
+}
+.nav2_dash .ReactModal__Overlay {
+  background-color: rgb(26 26 26 / 75%) !important;
+}
+.nav2_dash .modal-content-inner2 {
+  border-radius: 5px;
+  background: #fff;
+  position: absolute;
+  width: 27%;
+  top: 75px;
+  left: 51%;
+  padding: 3%;
+  padding-right: 0%;
+}
+.nav2_dash .modal-content-inner2 h2 {
+  color: #434343;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 20.1px */
+  margin-bottom: 10%;
+}
+.nav2_dash .modal-content-inner2 .year {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5%;
+  margin-left: 30%;
+}
+.nav2_dash .year p img {
+  position: absolute;
+  left: -35px;
+  top: 6px;
+}
+.nav2_dash .year p {
+  position: relative;
+}
+.nav2_dash .year a {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  padding: 2% 3%;
+}
+.nav2_dash .year a:hover {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 16.08px */
+  padding: 2% 3%;
+  border-radius: 2px;
+  background: #25a7ff;
+}
+.nav2_dash .close_year {
+  color: #d9d9d9;
+  font-family: Plus Jakarta Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.5%; /* 13.065px */
+  border-radius: 2px;
+  background: #7b7b7b;
+  padding: 1% 2%;
+  position: relative;
+  top: 35px;
+}
+.nav2_dash .info_wrapper {
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+}
+.nav2_dash .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-left: -50px;
+  align-items: center;
+}
+.nav2_dash .info_link {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132.023%;
+  /* 18.483px */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  margin: 0% 5px;
+}
+.nav2_dash .active_info_link {
+  color: #25a7ff;
+}
+.nav2_dash .info_list {
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.username {
+  width: 40px;
+  height: 50px;
+}
+@media (max-width: 1200px) {
+  .username {
+    width: 40px;
+    height: 40px;
+  }
+  .nav2_dash .info {
+    width: 90%;
+  }
+  .nav2_dash .info_link {
+    width: 35%;
+    margin: 0% 5px;
+  }
+  .nav2_dash .info_list {
+    width: 50%;
+   
+  }.nav2_dash .info_list img {
+    width: 40px;
+    height: 35px;
+  
+  }
+}
+@media (max-width: 1080px) {
+ 
+  .nav2_dash .reduce {
+    flex-direction: row;
+    width: 100%;
+   
+  }
+  .nav2_dash .info {
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  .nav2_dash .info_list img {
+    width: 40px;
+    height: 35px;
+  
+  }
+  .nav2_dash .info_link {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 0% 0px;
+  }
+}
+@media (max-width: 600px) {
+  .nav2_dash .info_list img {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+
+  }
+  .username {
+    width: 30px;
+    height: 20px;
+  }
+  .nav2_dash .info_list {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   margin-top: 30px;
+  }
+  .nav2_dash .reduce {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 0;
+   
+  }
+  .nav2_dash .info_phone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav2_dash .info_phone img{
+    margin-left: 12%;
+  }
+}

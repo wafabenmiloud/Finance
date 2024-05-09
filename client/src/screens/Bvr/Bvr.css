@@ -1,0 +1,204 @@
+.bvr_header p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+}
+.bvr_header h1{
+    padding-bottom: 0px;
+}
+.bvr_section1,.bvr_section4,.bvr_section6{
+    background-image: url('../../assets/api_bg.png');
+    padding: 3% 18%;
+    margin: 2% auto;
+}
+.bvr_section1 h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%; /* 35.64px */
+    width: 80%;
+    margin: 2% auto;
+}
+.bvr_section1 p{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%;
+    text-align: center;
+}
+.bvr_section2, .bvr_section3,.bvr_section5{
+    width: 50%;
+    margin: 4% auto;
+}
+.bvr_section2 .row_normal{
+    align-items: center;
+}
+.bvr_section2 .row_normal_lines span{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.5%; /* 47.7px */
+    
+}
+.bvr_section2 .green{
+    transform: none;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+}
+.bvr_section2 .row_normal_img{
+    position: relative;
+    top: 80px;
+}
+.bvr_section3 h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 29.64px */
+    margin: 2% auto;
+    }
+.bvr_section3 p{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+    margin: 2% auto;
+}
+.bvr_section3 li{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140.5%;
+    margin: 1% auto;
+}
+.bvr_section3 ul{
+    padding-left: 50px;
+}
+.cards_bvr .time_card_normal,.cards_bvr .time_card_reverse{
+    margin: auto;
+}
+.cards_bvr{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 3% 0;
+}
+.bvr_section4 h3,.bvr_section6 h3{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.5%; /* 35.64px */
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+.bvr_section4 li,.bvr_section6 p {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%; /* 29.7px */
+}
+.bvr_section4 ul{
+    width: 56%;
+    margin: 1% auto;
+}
+.bvr_section5 h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 39.52px */
+}
+.bvr_section5 p{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+    margin: 2% auto;
+
+}
+.bvr_section5 li{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157.5%; /* 34.65px */
+    
+}
+.bvr_section5 ul{
+    padding-left: 30px;
+}
+.bvr_section5 h5{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 25.2px */
+    margin: 2% auto;
+}
+.bvr_section6 p {
+    width: 60%;
+    margin: 2% auto;
+}
+@media screen and (max-width: 1920px){
+    .bvr_section1,.bvr_section4,.bvr_section6{
+        background-image: url('../../assets/api_bg.png');
+        padding: 3% 3%;
+        margin: 2% auto;
+    }
+    .bvr_section2, .bvr_section3,.bvr_section5{
+        width: 60%;
+        margin: 4% auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .bvr_section1 h3{
+        color: #FFF;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 148.5%; /* 35.64px */
+        width: 90%;
+        margin: 2% auto;
+    }
+    .bvr_section2 .row_normal_lines span{
+        color: #0B2840;
+        font-family: Plus Jakarta Sans;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132.5%; /* 47.7px */
+        width: 100% !important;
+        
+    }
+}

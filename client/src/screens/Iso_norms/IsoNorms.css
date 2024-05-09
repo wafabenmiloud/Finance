@@ -1,0 +1,64 @@
+.header_iso{
+    width: 70%;
+    margin: auto;
+}
+.header_iso p:last-of-type{
+    text-align: left;
+    width: 70% ;
+    margin: auto;
+}
+.iso_card, .time_card_normal {
+    margin: auto;
+}
+.iso_card .time_card_normal_content p{
+    margin-left: 0;
+}
+.iso_card{
+    width: 80%;
+    margin: 3% auto;
+}
+.iso_section{
+    text-align: center;
+
+}
+.iso_section h2{
+    color: #0B2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 29.64px */
+    margin: 2% auto;
+}
+.iso_section p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%; /* 22.86px */
+    margin: 4% auto;
+    width: 50%;
+}
+.iso_section img{
+    margin: 3% auto;
+}
+@media screen and (max-width: 1920px){
+.header_iso{
+    width: 100%;
+}
+.iso_card{
+    width: 100%;  
+}
+.iso_section p{
+    width: 70%;
+} 
+
+}
+@media (max-width:600px){
+    .iso_section img{
+        width: 100%;
+    }
+}

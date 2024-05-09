@@ -1,0 +1,160 @@
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+.div1 {
+  width: 121px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 36.5px;
+  background: linear-gradient(163deg, #00f8f7 0%, #00f8bc 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: -2%;
+  margin-right: -26%;
+  z-index: 9999;
+}
+.fform {
+  width: 616px;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 100px 0px 100px 100px;
+  background: #fff;
+  box-shadow: -5px 14px 32px -7px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 2% 0;
+
+}
+.fform h1{
+    color: #0B2840;
+text-align: center;
+font-size: 36px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.fform .input_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 20px;
+    padding: 26px 0 10px 0 !important;
+}
+.fform h6{
+    color: #4D5959;
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.fform input{
+    width: 100% !important;
+height: 65px;
+flex-shrink: 0;
+border-radius: 8px !important;
+background: #EFF0F2;
+padding: 0 32px !important;
+border: none !important;
+margin: 0  !important;
+}
+.fform button{
+    border-radius: 8px;
+background: #25A7FF;
+padding: 15px 135px;
+color: #FFF;
+font-size: 26px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 30px;
+}
+.fform p{
+    color: #747272;
+font-size: 18px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 4% 0;
+}
+.fform .link{
+    color: #000;
+font-size: 18px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.fform h2{
+    color: #25A7FF;
+font-size: 26px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 4% 0%;
+overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.fform h2:before,
+.fform h2:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 38%;
+}
+.error {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+    .fform {
+        width: 95%;
+        padding: 8% 0;
+      
+      }
+      .fform input{
+        width: 100% !important;
+
+    }
+    .fform button{
+        border-radius: 8px;
+    background: #25A7FF;
+    padding: 15px 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    }
+    .fform .input_field{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 26px 0 10px 0;
+    }
+}

@@ -1,0 +1,79 @@
+.parameters_entreprise{
+    width: 65% ;
+    margin: 5% auto;
+}
+.parameters_entreprise_content{
+    border-radius: 5px;
+    border: 0.5px solid #25A7FF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);  
+    padding: 2.5%;  
+    display: flex;
+    align-items: flex-start;
+}
+.parameters_entreprise_content h3{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 18.705px */   
+    margin: 3% 0; 
+}
+.parameters_entreprise_content hr{
+    width: 90%;
+    margin: 0;
+}
+.entreprise_content1{
+    width: 48%;
+}
+.entreprise_content2{
+    width: 48%;
+}
+.parameters_entreprise .input_settings{
+    width: 100% ;
+    margin: 4% 0;
+}
+.parameters_entreprise .input_settings select,.parameters_entreprise .input_settings input{
+    background-color: transparent;
+}
+.parameters_entreprise_content input[type=text]{
+    border-radius: 5px;
+    border: 1px solid #959799; 
+    padding: 2%;
+    width: 90%;  
+    margin: 4% 0;
+}
+.parameters_entreprise_content a{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.5%; /* 16.08px */    
+    border-radius: 2px;
+    background: #25A7FF;
+    padding: 1% 2%;    
+    padding: 1% 2%;  
+      
+}
+@media (max-width:600px){
+    .parameters_entreprise{
+        width: 85% ;
+        margin: 5% auto;
+    }
+
+    .parameters_entreprise_content a{
+        padding: 10px 2%;  
+          
+    }
+    .parameters_entreprise_content{
+        flex-direction: column-reverse;
+
+    }
+    .entreprise_content1,.entreprise_content2{
+        width: 98%;
+        margin: auto;
+    }
+
+}

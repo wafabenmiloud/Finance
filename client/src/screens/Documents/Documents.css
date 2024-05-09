@@ -1,0 +1,93 @@
+.comptese_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.comptese_section p{
+  color: #959799;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115.5%; /* 16.17px */
+  margin-bottom: 15px;
+}
+.comptese_section button{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+border-radius: 2px;
+background: #25A7FF;
+padding: 12px;
+}
+.doc_p2{
+  color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.5%; /* 14.07px */
+border-radius: 2px 2px 0px 0px;
+border-bottom: 0.2px solid #D9D9D9;
+background: #F2F1F1;
+padding: 15px 30px;
+}
+.doc_row{
+  display: flex;
+  flex-direction: row;
+  
+  align-self: flex-start;
+  gap: 15px;
+  padding: 2%  0;
+}
+.doc_row_wrapper{
+  display: flex;
+  flex-direction: row;
+  
+  align-self: flex-end;
+  gap: 15px;
+  padding: 2%  0;
+}
+.doc_row label{
+  color: #0B2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.5%; /* 14.07px */
+}
+.doc_row p{
+  color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+}
+.versement_section button{
+  color: #666 ;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+padding: 10px 15px ;
+border-radius: 2px;
+background: #D9D9D9 ;
+align-self: flex-start;
+}
+
+@media (max-width:600px) {
+  .comptese_section {
+    width: 90%;
+    margin: auto;
+  }
+  .doc_wrap{
+    flex-wrap: wrap;
+  }
+}

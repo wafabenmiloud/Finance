@@ -1,0 +1,16 @@
+.footer_dashboard{
+    background: #0B2840;
+    padding: 1%;
+margin-top: 4%;
+}
+.footer_dashboard a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 14.07px */
+    display: block;    
+    width: 60%;
+    margin: 1% auto;
+}

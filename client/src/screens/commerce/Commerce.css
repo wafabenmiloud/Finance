@@ -1,0 +1,478 @@
+.header1_advantages h2 {
+  color: #0b2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%; /* 48.96px */
+}
+.header1_advantages span {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%;
+}
+.artisanat_diagram_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #25a7ff;
+  text-align: center;
+  width: 100%;
+  padding: 4% 22%;
+  gap: 15px;
+}
+.artisanat_h1 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+}
+.artisanat_span {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+}
+.artisanat_p {
+  color: #d9d9d9;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128.5%; /* 25.7px */
+}
+.artisanat_diagram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  gap: 26px;
+  padding: 4% 0;
+}
+.artisanat_diagram .diagram_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 0;
+}
+.artisanat_diagram .line {
+  position: absolute;
+  width: 1px;
+  height: 480px;
+  background-color: transparent;
+  border: 1px dashed #fff;
+  left: 48.1%;
+}
+.artisanat_diagram .content {
+  border-radius: 10px;
+  background: #f5f5f5;
+  box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  width: 100%;
+}
+.diagram_line {
+  height: 0;
+  border-bottom: 1px dashed white;
+  width: 15%;
+}
+.artisanat_diagram .diagram_content {
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%; /* 25.5px */
+}
+.artisanat_diagram_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: end;
+  width: 45%;
+  gap: 15px;
+}
+.artisanat_diagram_left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.artisanat_diagram_right h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 103.023%; /* 32.967px */
+  padding-bottom: 50px;
+  width: 80%;
+}
+.artisanat_diagram_right h2 {
+  color: #0b2840;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 93.523%; /* 22.445px */
+}
+.artisanat_diagram_right h3 {
+  color: #0b2840;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105.023%; /* 18.904px */
+  width: 80%;
+}
+.arch_tic_wrapper {
+  border-radius: 36px;
+  border: 2px solid #000;
+  background: #00f8bc;
+  box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px;
+  z-index: 9999;
+}
+.arch_tic_icon {
+  font-size: 1.5rem;
+  color: #0b2840;
+  font-weight: bolder;
+}
+.artisanat_imgs{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+.artisanat_imgs p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%;
+width: 50%;
+}
+.artisanat_imgs_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.artisanat_imgs_row img{
+  width: 40%;
+}
+
+.artisanat_trucs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/trucs_bg.png);
+    padding: 0% 10%;
+    width: 100%;
+}
+.artisanat_trucs h2{
+    color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 118%; /* 47.2px */
+padding-bottom: 4%;
+width: 80%;
+}
+.artisanat_trucs img{
+    width: 100%;
+}
+.trucs_btn{
+    border-radius: 5px;
+background: #00F8F7;
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+padding: 3% 5%;
+color: #0B2840;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 132.023%; /* 23.764px */
+}
+.artisanat_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 24%;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/artisanat_bg.png);
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+}
+.artisanat_content h1{
+  color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 46.4px */
+}
+.artisanat_content h2{
+  color: #7B7B7B;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 157.5%; /* 28.35px */
+}
+.artisanat_content p{
+  color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%; /* 20.544px */
+}
+.artisanat_client_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border-radius: 25px;
+    background: linear-gradient(215deg, #fff 0%, #e5f4ff 100%);
+    box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+    padding: 8% 2%;
+    width: 55%;
+    margin: auto;
+  }
+  .artisanat_client_content h2 {
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .artisanat_client_content h5 {
+    color: #959799;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126.5%; /* 20.24px */
+  }
+  .artisanat_client_content p {
+    color: #959799;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126.5%; /* 17.71px */
+  }
+  .artisanat_client_img {
+    margin-bottom: -6%;
+    z-index: 9999;
+  }
+  .artisanat_faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 8% 0;
+    gap:10px ;
+    width: 65%;
+    margin: auto;
+  }
+  @media screen and (max-width: 1920px){
+    
+.artisanat_diagram_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #25a7ff;
+  text-align: center;
+  width: 100%;
+  padding: 4% 15%;
+  gap: 15px;
+}
+.artisanat_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 21%;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/artisanat_bg.png);
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+}
+  }
+@media screen and (max-width: 1440px) {
+.artisanat_diagram_wrapper {
+        padding: 4% 3%;
+      }
+  .artisanat_diagram {
+    padding: 2% 0%;
+  }
+  .artisanat_faq{
+    
+    width: 85%;
+  }
+  .artisanat_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 11%;    
+}
+}
+@media screen and (max-width: 1080px){
+    .artisanat_diagram .line {
+        position: absolute;
+        width: 1px;
+        height: 550px;
+        background-color: transparent;
+        border: 1px dashed #fff;
+        left: 48.1%;
+      }
+      .artisanat_client_content {
+        width: 100%;
+      }
+}
+@media screen and (max-width: 834px) {
+    .artisanat_diagram {
+        flex-direction: column;
+        gap: 50px;
+      }
+      .artisanat_diagram_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        gap: 25px;
+      }
+      .artisanat_diagram_left {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .artisanat_diagram .line {
+        visibility: hidden;
+      }
+      .artisanat_trucs h2{
+    font-size: 30px;
+    width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+  
+      .artisanat_trucs h2{
+    font-size: 20px;
+    width: 100%;
+    }
+    .artisanat_client {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 88%;
+        margin: auto;
+      }
+      .artisanat_client_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+        border-radius: 25px;
+        background: linear-gradient(215deg, #fff 0%, #e5f4ff 100%);
+        box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+        padding: 8% 2%;
+      }
+      .artisanat_client_content h2 {
+        color: #000;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      
+      .artisanat_client_content h5 {
+        color: #959799;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 126.5%; /* 20.24px */
+      }
+      .artisanat_client_content p {
+        color: #959799;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 126.5%; /* 17.71px */
+      }
+      .artisanat_client_img {
+        margin-bottom: -8%;
+        z-index: 9999;
+      }
+}

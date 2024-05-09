@@ -1,0 +1,63 @@
+label,
+.contact_textfield h4 {
+  color: #0b2840;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  line-height: 100.5%; /* 16.08px */
+}
+label span,
+.contact_textfield span {
+  color: #f00;
+  margin-left: 5px;
+}
+select, .input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #959799;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+form {
+  width: 100%;
+  padding: 0 0;
+}
+.searchrow1 {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0.5px solid #8e8e8e;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.searchrow1 input {
+  width: 80%;
+  background-color: transparent;
+}
+
+
+.notes2_title_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.notes2_title_row h4 {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+}

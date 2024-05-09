@@ -1,0 +1,274 @@
+.academy_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+    gap: 16px;
+}
+.academy_title h1{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    width: 35%;
+    
+}
+.academy_title span{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+}
+.academy_title p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+    width: 45%;
+
+}
+
+.aide_trucs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/trucs_bg.png);
+    padding: 4% 20%;
+    width: 100%;
+    margin: 1% 0 0 0;
+}
+.aide_trucs img{
+    width: 100%;
+}
+.aide_trucs h1{
+color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 118%; /* 47.2px */
+padding-bottom: 20px;
+}
+.aide_trucs h2{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%; /* 23.6px */
+}
+.aide_trucs p{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118%; /* 28.32px */
+}
+
+.trouver_partner2{
+    background-image: url('../../assets/market_imgs/pricetag.svg') ;
+}
+.academy_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5% 0;
+    width: 50%;
+    margin: auto;
+    text-align: start;
+
+}
+.academy_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+width: 100%;
+padding: 5% 4%;
+}
+.academy_col1, .academy_col2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+text-align: start;
+
+}
+.academy_col2{
+    border-left: 1px solid #959799;
+    width: 30%;
+    padding-left: 20px;
+}
+.academy_col1{
+    width: 70%;
+}
+.academy_col1 h1{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 131.5%; /* 26.3px */
+letter-spacing: 0.4px;
+}
+.academy_col1 h2{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 131.5%; /* 21.04px */
+letter-spacing: 0.32px;
+}
+.academy_col1 p{
+    color: #25A7FF;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 131.5%; /* 21.04px */
+letter-spacing: 0.32px;
+}
+.academy_col2 p{
+    color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 118.5%; /* 14.22px */
+letter-spacing: 0.24px;
+}
+.academy_col2 button{
+    border-radius: 5px;
+border: 1px solid #25A7FF;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.20);
+color: #25A7FF;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 118.5%; /* 18.96px */
+letter-spacing: 0.32px;
+padding: 11px 22px;
+}
+@media screen and (max-width: 1920px){
+    .academy_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 5% 0;
+        width: 60%;
+        margin: auto;
+        text-align: start;
+    
+    }
+    
+    .aide_trucs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+        background-image: url(../../assets/trucs_bg.png);
+        padding: 4% 10%;
+        width: 100%;
+        margin: 1% 0 0 0;
+    }
+
+}
+@media (max-width:1024px){
+    .academy_title h1{
+        width: 90%;
+    }
+
+    .academy_title p{
+ 
+        width: 80%;
+    
+    }
+    .aide_trucs h2{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%; /* 47.2px */
+    width: 100%;
+    padding-bottom: 2%;
+    }
+    .aide_trucs p{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118%; /* 28.32px */
+    }
+    .academy_cards{
+       
+        width: 90%;
+       
+    
+    }
+ }
+ @media (max-width:600px){
+    .aide_trucs h2{
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%; /* 47.2px */
+    width: 100%;
+    padding-bottom: 2%;
+    }
+    .aide_trucs p{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118%; /* 28.32px */
+    }
+    .aide_trucs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4% 10%;
+        text-align: center;
+    }
+    .academy_col2{
+        border-left: 1px solid #959799;
+        width: 50%;
+        padding-left: 20px;
+    }
+    .academy_col1{
+        width: 70%;
+    }
+ }

@@ -1,0 +1,180 @@
+.header_btn_commerce{
+    border-radius: 5px;
+    background: #00F8F7;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+    color: #0B2840;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.023%;
+    position: relative;
+    top: 50px;
+    margin: 1%;
+}
+.header_btn_commerce:hover{
+    border-radius: 10px;
+    border: 2px solid #00F8F7;
+    background: #FFF;
+    box-shadow: 0px 15px 15px -6px rgba(0, 0, 0, 0.15);
+    color: black;
+}
+.header1  p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.523%; /* 15.753px */
+    width: 50%;
+    margin: auto;
+}
+#commerce_pricing .pricing1{
+    height: 900px;
+}
+#commerce_pricing .pricing2{
+    height: 910px;
+}
+#commerce_pricing {
+    height: fit-content;
+}
+#commerce_pricing .pricing1,#commerce_pricing .pricing2_commerce{
+    width: 23%;
+}
+#commerce_pricing .pricing1{
+    left: 8%;
+}
+#commerce_pricing .pricing1_last{
+    left: -8%
+}
+#commerce_pricing .open_account_commerce{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+    color: #0B2840;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.9%; /* 15.106px */
+    letter-spacing: -0.35px;
+    bottom: 100px;
+}
+#commerce_pricing .open_account_commerce1{
+    border-radius: 10px;
+    background: linear-gradient(163deg, #1F50FF 0%, #43B3FF 100%);
+    box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 107.9%; /* 15.106px */
+    letter-spacing: -0.35px;
+    bottom: 100px;
+}
+#commerce_pricing .pricing1 li, #commerce_pricing .pricing2 li{
+    padding: 1.5%;
+}
+.bottom_commerce_pricing{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.bottom_commerce_pricing b{
+    margin-top: 20px;      
+}
+#commerce_pricing .pricing1 li , #commerce_pricing .pricing2 li {
+     display: flex;
+}
+.seperating_line_commerce hr{ 
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background: #959799;
+    height: 1px;
+    margin: auto;
+
+}
+
+.seperating_line_commerce p{
+    width: 80%;
+    margin: auto;
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%; /* 18.5px */
+    padding: 1% 0 4% 0;
+}
+@media (min-width:2000px){
+    #commerce_pricing .pricing1, #commerce_pricing .pricing2_commerce{
+        width: 20%;
+    }
+    .seperating_line_commerce hr{ 
+        border: 0;
+        clear:both;
+        display:block;
+        width: 60%;               
+        background: #959799;
+        height: 1px;
+        margin: auto;
+    
+    }
+    
+    .seperating_line_commerce p{
+        width: 60%;
+        margin: auto;
+        color: #7B7B7B;
+        font-family: Plus Jakarta Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 185%; /* 18.5px */
+        padding: 1% 0 4% 0;
+    }
+}
+@media (max-width:1024px){
+    .header_btn_commerce{
+        padding: 40px;
+        width: 90%;
+        font-size: 16px;
+    }
+    #commerce_pricing .pricing1 , #commerce_pricing .pricing2 {
+        width: 100%;
+        left: 0;
+        height: 900px;
+        margin: 10% auto;
+    }
+    .header1 a{
+        font-size: 16px;
+        padding: 10px;
+        display: block;
+        margin: 5% auto;
+        
+    }
+    .header1_cards{
+        width: 100%;
+        margin:5% auto ;
+    }
+    .header1_cards img{
+        margin-bottom: 0;
+    }
+    .faq_commerce{
+        width: 80%;
+        margin: 2% auto;
+    }
+    .header1_test p{
+        width: 80% !important;
+    }
+    
+}

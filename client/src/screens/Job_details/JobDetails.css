@@ -1,0 +1,103 @@
+.jobDetails{
+    margin: 5% auto;
+    width: 68%;
+    text-align: center;
+}
+.jobDetails h1{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+    margin: 3% auto;
+}
+.jobDetails a{
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167%; /* 23.38px */
+    border-radius: 5px;
+    background: #25A7FF;
+    padding: 15px 40px;
+}
+.jobDetails_text_header{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+    margin: 5% auto;
+}
+.jobDetails_text{
+    width: 80% ;
+    margin: auto;
+}
+.jobDetails_text p{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%; /* 21.12px */
+    text-align: left;
+    width: 93%;
+    padding-left: 25px;
+    margin: 2% 0;
+}
+.jobDetails_text li{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%; /* 21.12px */
+    text-align: left;
+    width: 93%;
+    margin: 0.5% 3.5%;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:black;
+    height: 0.2px;
+    margin: 4% 2%;
+  }
+  .jobDetails h5{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+    text-align: left;
+  }
+  .jobDetails ul{
+    margin: 1%;
+  }
+  .qui_equipe button {
+    z-index: 100;
+  }
+  @media screen and (max-width: 1920px)
+{
+    .jobDetails{
+        margin: 5% auto;
+        width: 80%;
+        text-align: center;
+    }
+}
+  @media (max-width:600px){
+    .jobDetails{
+        width: 100%;
+    }
+    .jobDetails_text_header{
+        font-size: 12px;
+    }
+  }

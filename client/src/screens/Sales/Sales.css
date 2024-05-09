@@ -1,0 +1,30 @@
+.cards_sales{
+    width: 50%;
+    margin:5% auto;
+
+}
+.photo_sales_start{
+    align-items: flex-start;
+}
+.sales_contact{
+    position: relative;
+    top: -70px;
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+}
+@media screen and (max-width: 1920px)
+{
+    .cards_sales{
+        width: 70%;
+        margin:5% auto;
+    
+    } .sales_contact{
+    top: 0px;
+    
+}
+}

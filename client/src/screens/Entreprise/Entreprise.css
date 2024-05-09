@@ -1,0 +1,359 @@
+.entreprise_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+  width: 100% !important;
+}
+.entreprise_section {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0;
+}
+.tab1 {
+  border-collapse: collapse;
+  border: 0.5px solid #25a7ff;
+  background: #fff;
+  margin: 15px 0;
+}
+.tab2 {
+  border-collapse: collapse;
+
+  margin: 15px 0;
+}
+.tab1 tbody td {
+  padding: 10px;
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+  text-align: center;
+}
+.tab1 thead td {
+  padding: 20px;
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+  text-align: center;
+}
+.tab2 tbody td {
+  padding: 20px;
+  color: #959799;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  text-align: start;
+}
+.tab2 thead td {
+  padding: 30px;
+  color: #434343;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  text-align: start;
+}
+.entreprise_bg2 {
+  background-color: #efefef;
+}
+.mod_cop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.entreprise_data {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #25a7ff;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+.entreprise_data option,
+.entreprise_data select {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.5%; /* 14.07px */
+}
+.entreprise_row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.entreprise_row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.entreprise_textfield {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.entreprise_textfield input {
+  border-radius: 5px;
+  border: 1px solid #959799;
+  padding: 5px;
+  background-color: transparent !important;
+}
+.entreprise_textfield label,
+.entreprise_row label,
+.entreprise_row2 label {
+  color: #0b2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  width: 100%;
+}
+.entreprise_wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+textarea::placeholder {
+  color: #d9d9d9;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+}
+input::placeholder {
+  color: #d9d9d9;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 12.06px */
+}
+.assur_btn2 {
+  border-radius: 2px;
+  border: 1px solid #25a7ff;
+  color: #25a7ff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  padding: 10px 12px;
+  background-color: #fff;
+}
+.container {
+  width: 1000px;
+}
+select {
+  height: 5%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.date_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 1440px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 600px) {
+  .date_row {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+  }
+  .grid {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .entreprise_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    width: 90% !important;
+    margin: auto;
+  }
+  .entreprise_section {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0;
+    width: 100% !important;
+  }
+  .tab1 {
+    border-collapse: collapse;
+    border: 0.5px solid #25a7ff;
+    background: #fff;
+    margin: 15px 0;
+  }
+  .tab2 {
+    border-collapse: collapse;
+
+    margin: 15px 0;
+  }
+  .tab1 tbody td {
+    padding: 10px;
+    color: #0b2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */
+    text-align: center;
+  }
+  .tab1 thead td {
+    padding: 0px;
+    color: #0b2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */
+    text-align: center;
+  }
+  .tab2 tbody td {
+    padding: 0px;
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.5%; /* 14.07px */
+    text-align: start;
+  }
+  .tab2 thead td {
+    padding: 0px;
+    color: #434343;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.5%; /* 14.07px */
+    text-align: start;
+  }
+
+  .mod_cop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .entreprise_data {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #25a7ff;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    width: 100%;
+    margin: auto;
+  }
+  .entreprise_data option,
+  .entreprise_data select {
+    color: #0b2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.5%; /* 14.07px */
+  }
+  .entreprise_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+  .entreprise_row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+  .entreprise_textfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .entreprise_textfield input {
+    border-radius: 5px;
+    border: 1px solid #959799;
+    padding: 5px;
+    background-color: transparent !important;
+  }
+  .entreprise_textfield label,
+  .entreprise_row label,
+  .entreprise_row2 label {
+    color: #0b2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.5%; /* 14.07px */
+    width: 100%;
+  }
+  .entreprise_wrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+  }
+  textarea::placeholder {
+    color: #d9d9d9;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */
+  }
+  input::placeholder {
+    color: #d9d9d9;
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */
+  }
+  .assur_btn2 {
+    border-radius: 2px;
+    border: 1px solid #25a7ff;
+    color: #25a7ff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.5%; /* 14.07px */
+    padding: 10px 12px;
+    background-color: #fff;
+  }
+
+  select {
+    height: 5%;
+  }
+}

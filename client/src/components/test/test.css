@@ -1,0 +1,58 @@
+
+.test_demo{
+    text-align: center;
+    padding: 3%;
+    margin: 3% 0%;
+}
+
+.test_demo h2{
+    color: #0B2840;
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+.test_demo p{
+    color: #7B7B7B;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%;
+    width: 30%;
+    margin-bottom: 3% !important;
+    margin: auto;
+}
+.test_demo a {
+    color: #0B2840;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.08rem;
+    padding: 1% 1.5%;
+    border-radius: 2.5rem;
+    background: #25A7FF;
+    box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:1024px){
+    .test_demo h2{
+        font-size: 1.5rem;
+    }
+    .test_demo p{
+        width: 100%;
+    }
+    .test_demo a{
+        padding: 2.5% 2%;
+        margin-top: 5% !important;
+        font-size: 16px;
+    }
+
+}

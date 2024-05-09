@@ -1,0 +1,457 @@
+/*about section*/
+#about {
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+#about .textt {
+  width: 50%;
+  margin: auto;
+}
+#about .textt span {
+  color: #25a7ff;
+}
+#about .textt h1 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  line-height: 118%;
+}
+#about .textt h2 {
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  line-height: 137.4%;
+  font-weight: 600;
+}
+.home_screen .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+.home_screen .cards_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/*services section*/
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  margin: auto;
+  gap: 50px;
+}
+.home_screen .services,
+.home_screen .buttons,
+.home_screen .serv_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home_screen .serv_right .tic_wrapper {
+  border-radius: 31px;
+  background: #00f8bc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 3px;
+}
+.home_screen .serv_right .tic {
+  border-radius: 31px;
+  background: #00f8bc;
+  width: 45px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+}
+.home_screen .serv_right .tic_icon {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.home_screen .lines {
+  padding: 2% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.home_screen .line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  gap: 2%;
+}
+.home_screen .serv_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  padding: 0 5% !important;
+}
+.home_screen .serv_right h1 {
+  color: #000;
+  font-size: 24px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  line-height: 132.5%;
+}
+.home_screen .serv_right h2 {
+  color: #959799;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  line-height: 136%;
+}
+.home_screen .line_text span {
+  color: #000;
+  font-size: 24px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
+.home_screen .line_text h4 {
+  color: #959799;
+  font-size: 22px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+}
+.home_screen .serv_left {
+  gap: 85px;
+  width: 65%;
+}
+
+.home_screen .serv_left .img_wrapper,
+.home_screen .serv_left .img_wrapper1 {
+  transform: rotate(6.256deg);
+    width: 40%;
+
+}
+.home_screen .serv_left .img_wrapper img {
+  width: 120%;
+  height: 550px;
+  border-radius: 150px;
+}
+.serv_left .img_wrapper1 img {
+  width: 120%;
+  height: 550px;
+  border-radius: 150px;
+}
+.img_wrapper1 {
+  margin-bottom: -10%;
+}
+.img_wrapper {
+  margin-top: -10%;
+}
+.home_screen .buttons {
+  gap: 20px;
+}
+.home_screen .btn1 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  border-radius: 10px;
+  background: #25a7ff;
+  box-shadow: 0px 15px 15px -6px rgba(0, 0, 0, 0.15);
+  padding: 14px 15px;
+}
+.home_screen .btn2 {
+  color: #25a7ff;
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+  border-radius: 10px;
+  border: 2px solid #25a7ff;
+  background: #fff;
+  box-shadow: 0px 15px 15px -6px rgba(0, 0, 0, 0.15);
+  padding: 14px 15px;
+}
+.btn1:hover,
+.btn2:hover {
+  cursor: pointer;
+}
+/*testimonials section*/
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0;
+}
+/*partners section*/
+#partners{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#partners h1{
+  color: #000;
+text-align: center;
+font-size: 48px;
+font-family: Plus Jakarta Sans;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 18px;
+}
+#partners h2{
+  color: #7B7B7B;
+  text-align: center;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%;
+  width: 33%;
+}
+.partners_logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 0;
+
+}
+.partners_logo img{
+  width: 247.5px;
+height: 110px;
+}
+/*contact section*/
+#contact{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #25A7FF;
+  padding: 33px 0;
+}
+#contact h4{
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-family: Plus Jakarta Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 132%;
+padding: 3px 0;
+}
+#contact span{
+  font-weight: 600;
+  padding: 0 30px;
+}
+@media screen and (max-width: 1920px){
+#about .textt {
+  width: 80%;
+  margin: auto;
+}
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+  gap: 50px;
+}
+}
+@media screen and (max-width: 1280px){
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  gap: 50px;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+  .cards_row {
+    flex-direction: column !important;
+  }
+  .services {
+    padding: 5% 0 !important;
+    flex-direction: column !important;
+    gap: 100px;
+  }
+  .serv_left {
+  gap: 0px;
+}
+  .serv_left .img_wrapper img{
+    width: 80% ;
+    height: 500px;
+    border-radius: 150px;
+  }
+ 
+  .serv_left .img_wrapper1 img {
+    width: 120% ;
+    height: 500px;
+    border-radius: 150px;
+  }
+  #about .textt {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 810px) {
+
+  .textt h1 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    line-height: 118%;
+  }
+  .textt h2 {
+    font-size: 12px;
+  }
+  .serv_right h1 {
+    font-size: 20px;
+  }
+  .serv_right h2 {
+    font-size: 16px;
+  }
+  .line_text span {
+    font-size: 20px;
+  }
+  .line_text h4 {
+    font-size: 18px;
+  }
+  #partners h1{
+ 
+  font-size: 30px;
+  
+  }
+  #partners h2{
+   
+    font-size: 16px;
+   
+    width: 80%;
+  }
+  .partners_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 50px;
+  
+  }
+  .partners_logo img{
+    width: 50%;
+  height: 110px;
+  }
+  #contact{
+   padding: 33px 10px;
+ }
+  #contact h4{
+   
+    font-size: 16px;
+    padding: 3px 0;
+    }
+    #contact span{
+      font-weight: 600;
+      padding: 0 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+  .home_screen .buttons {
+    gap: 20px;
+    width: 95%;
+  }
+  .home_screen .btn1 {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    
+    padding: 14px 12px;
+  }
+  .home_screen .btn2 {
+    color: #25a7ff;
+    text-align: center;
+    font-size: 12px;
+   
+    padding: 14px 12px;
+  }
+  .home_screen .serv_right h1 {
+    color: #000;
+    font-size: 20px;
+    
+  }
+  .home_screen .serv_right h2 {
+    color: #959799;
+    font-size: 18px;
+   
+  }
+  .home_screen .line_text span {
+    font-size: 18px;
+ 
+  }
+  .home_screen .line_text h4 {
+    font-size: 16px;
+   
+  }
+  .serv_left {
+    gap: 20px !important;
+    padding: 0;
+    width: 100% !important;
+  }
+  #services {
+   
+    width: 100%;
+  }
+
+  .serv_left .img_wrapper img{
+    width: 100% !important ;
+    height: 300px !important;
+  }
+ 
+  .serv_left .img_wrapper1 img {
+    width: 100% !important ;
+    height: 300px !important;
+  }
+  #about .textt  {
+    width: 90%;
+    padding: 5%;
+  }
+  #about .textt h1 {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    line-height: 118%;
+  }
+}
+@media screen and (max-width: 400px) {
+ 
+}

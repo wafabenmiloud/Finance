@@ -1,0 +1,75 @@
+.rating_wbg{
+   
+    padding: 4.5%;
+
+}
+.rating_wbg h3{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    line-height: 118%;
+}
+.rating_wbg_flex{
+    display: flex;
+    justify-content: center;
+}
+.score_wbg p{
+    color: #25A7FF;
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+}
+.score_wbg .number_wbg{
+    color: black;
+    text-align: center;
+    font-size: 8rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    line-height: 118%;
+}
+.stars_wbg{
+    display: flex;
+    margin: 1% 0 0 3%;
+    width: 660px;
+    background-color: transparent;
+}
+.stars_wbg img{
+  width: 30%;
+  height: 75%;
+  margin: 0 2%;
+  overflow: hidden;
+  background-color: transparent;
+
+
+}
+.half_wbg{
+    height: 74% !important;
+}
+@media (max-width:1024px){
+    .rating_wbg_flex{
+        flex-direction: column;
+    }
+    .stars_wbg{
+        width: 100%;
+        justify-content: center;
+    }
+    .rating_wbg h3{
+        font-size: 1rem;
+    }
+    .score_wbg p{
+        font-size: 0.8rem;
+    }
+    .score_wbg .number_wbg{
+        font-size: 3rem;
+    }
+    .stars_wbg img{
+      width: 5%;
+      height: 75%;
+      margin: 0 2%;
+      overflow: hidden;
+    
+    }
+}

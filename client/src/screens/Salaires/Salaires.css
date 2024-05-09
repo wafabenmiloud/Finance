@@ -1,0 +1,383 @@
+ .salaires_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+.salaires_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.salaires_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+.salaires_section table {
+  border-collapse:collapse;
+}
+.salaires_section tbody tr {
+  border: 0.5px solid #25a7ff;
+  background: #efefef;
+}
+.salaires_section tbody td {
+  background: #efefef;
+  padding: 10px;
+  color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+}
+.salaires_section thead td {
+  padding: 20px;
+  color: #434343;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+}
+.salaires_section .number{
+    color: #A7A7A7;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 40.2px */
+}
+.salaires_section .mois{
+    color: #434343;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+}
+.salaires_section table button{
+    border-radius: 2px;
+background: #25A7FF;
+color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+padding: 12px;
+margin-right: 150px;
+}
+.versement_section{
+  border: 0.5px solid #25A7FF;
+background: #FFF;
+box-shadow: 0px 7px 25px 0px rgba(0, 0, 0, 0.15);
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.versement_section h2{
+  color: #434343;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.5%; /* 20.1px */
+}
+.vers_comm_p{
+  color: #0B2840;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.5%; /* 14.07px */
+}
+.vers_p{
+  color: #0B2840;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.5%; /* 14.07px */
+}
+.vers_p2{
+  color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.5%; /* 14.07px */
+border-bottom: 0.2px solid #7B7B7B;
+background: #F2F1F1;
+padding: 10px 30px;
+margin-left: 8%;
+}
+.salaires_wrapper select{
+  border: none;
+  color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 106.5%; /* 12.78px */
+padding: 0;
+}
+.versement_section button{
+  color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100.5%; /* 14.07px */
+padding: 11px 13px;
+border-radius: 2px;
+background: #25A7FF;
+}
+.versement_section thead td{
+  color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 106.5%; /* 14.91px */
+}
+.versement_section tbody td{
+  color: #7B7B7B;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 106.5%; /* 12.78px */
+}
+.vers_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.vers_row p{
+  color: #0B2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%; /* 12.78px */
+}
+.versement_section h5{
+  color: #0B2840;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 106.5%; /* 14.91px */
+}
+.show_buttons{
+  gap: 10px !important;
+  width: 50%;
+}
+@media (max-width:1380px){
+  .show_buttons{
+    gap: 10px !important;
+    width: 80%;
+  }
+  .salaires_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+  .salaires_content  {
+    width: 100%;
+    margin: auto;
+  }
+  .salaires_section  {
+    width: 100%;
+    margin: auto;
+  }
+  .salaires_section table {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width:600px){
+ 
+  .salaires_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .salaires_list p{
+   font-size: 10px;
+  }
+ 
+  .salaires_section tbody td {
+    background: #efefef;
+    padding: 0px;
+    color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 1%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  }
+  .salaires_section thead td {
+    padding: 0px;
+    color: #434343;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  }
+  .salaires_section .number{
+      color: #A7A7A7;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 40.2px */
+  }
+  .salaires_section .mois{
+      color: #434343;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  }
+  .salaires_section table button{
+      border-radius: 2px;
+  background: #25A7FF;
+  color: #FFF;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  padding: 12px;
+  margin-right: 50px;
+  }
+  .versement_section{
+    border: 0.5px solid #25A7FF;
+  background: #FFF;
+  box-shadow: 0px 7px 25px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .versement_section h2{
+    color: #434343;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.5%; /* 20.1px */
+  }
+  .vers_comm_p{
+    color: #0B2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 14.07px */
+  }
+  .vers_p{
+    color: #0B2840;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 14.07px */
+  }
+  .vers_p2{
+    color: #0B2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100.5%; /* 14.07px */
+  border-bottom: 0.2px solid #7B7B7B;
+  background: #F2F1F1;
+  padding: 10px 30px;
+  margin-left: 8%;
+  }
+  .salaires_wrapper select{
+    border: none;
+    color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%; /* 12.78px */
+  padding: 0;
+  }
+  .versement_section button{
+    color: #FFF;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  padding: 11px 13px;
+  border-radius: 2px;
+  background: #25A7FF;
+  }
+  .versement_section thead td{
+    color: #0B2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 106.5%; /* 14.91px */
+  }
+  .versement_section tbody td{
+    color: #7B7B7B;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%; /* 12.78px */
+  }
+  .vers_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .vers_row p{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106.5%; /* 12.78px */
+  }
+  .versement_section h5{
+    color: #0B2840;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 106.5%; /* 14.91px */
+  }
+}

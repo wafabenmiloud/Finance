@@ -1,0 +1,40 @@
+.change_profile_image p{
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+.change_profile_image{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 5%;
+    position: relative;
+    left: -9.5%;
+}
+.change_profile_image .import_logo {
+    border-radius: 5px;
+    border: 1px dashed #959799;
+    background: #D9D9D9;
+    text-align: center;
+    padding: 4%;
+    width: 40%;
+    margin-bottom: 2%;
+}
+@media (max-width:600px){
+    .change_profile_image .import_logo {
+       
+        width: 75%;
+        
+    }
+    .change_profile_image{
+        left: 0;
+
+    }
+    .settings h1{
+        font-size: 16px;
+    }
+}

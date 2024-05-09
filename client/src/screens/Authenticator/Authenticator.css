@@ -1,0 +1,89 @@
+.authenticator{
+    margin: 2% auto;
+    width: 65%;
+}
+.authenticator p, .authenticator label {
+    color: #959799;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.5%; /* 14.07px */
+
+}
+.authenticator h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */    
+    margin: 4% auto;
+}
+.authenticator_card{
+    border-radius: 5px;
+    border: 0.5px solid #25A7FF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);    
+    width: 48%;
+    padding: 2% 4%;
+    margin: 2% auto;
+}
+.authenticator_cards{
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.authenticator_card ul{
+    margin: 3% auto;
+    position: relative;
+    left: 19px;
+}
+.authenticator_card2{
+    display: flex;
+    justify-content: space-between;
+}
+.authenticator_card2 h2{
+    margin: 17% auto;
+}
+
+.auth_input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5% auto;
+    margin-left: 0;
+}
+.auth_input input{
+    border-radius: 2px;
+    border: 0.5px solid #959799;  
+    margin: 2% ;  
+    margin-left: 0;
+    padding: 2%;
+}
+.auth_inputs{
+    display: flex;
+    align-items: center;
+}
+.auth_inputs a{
+    border-radius: 2px;
+    background: #25A7FF;    
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.5%; /* 16.08px */    
+    padding: 2%;
+    width: 49%;
+    text-align: center;
+}
+@media (max-width:600px){
+    .authenticator_cards{
+        flex-direction: column;
+    }
+    .authenticator_card{
+        width: 100%;
+    }
+}

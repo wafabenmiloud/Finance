@@ -1,0 +1,311 @@
+.time_author_tva{
+    display: flex;
+    
+
+
+}
+.time_author_tva p:first-child{
+    border-right: 1px solid ;
+}
+.time_author_tva p{
+    margin: 1%;
+    width: 100%;
+}
+.time_author_tva p:last-child{
+   
+    text-align: left;
+}
+.time_author_tva img{
+    margin:auto 4% ;
+}
+.time_author_tva{
+    width: 40%;
+    margin: auto;
+}
+.swiss_tva_header_p{
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 40px 32px 0px rgba(0, 0, 0, 0.13);
+    padding: 3% 8%;
+
+}
+.swiss_tva_header_p1{
+    color: #000 !important;
+    text-align: center !important;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 140% !important; /* 25.2px */
+    width: 60%;
+    margin: auto;
+}
+ .swiss_tva .stock_card_normal_content h1,.swiss_tva .stock_card_normal_content p{
+    text-align: left !important;
+    margin-left: 0;
+ }
+ .swiss_tva .joblist_thead th:first-child{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .swiss_tva .joblist_thead th{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 10%;
+ }
+ .swiss_tva .jobList {
+    width: 52%;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-top: 4%;
+ }
+ .tva_table_p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.4%; /* 20.544px */
+    margin: 2% auto;
+ }
+ .swiss_tva .jobList h1{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+ }
+ .bluebg_tva{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%; /* 20.79px */
+    border-radius: 10px;
+    background: rgba(37, 167, 255, 0.29);
+    box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    width: 52%;
+    margin:2% auto; 
+    gap: 2%;
+ }
+ .tva_function{
+    width: 50%;
+    margin: auto;
+ }
+ .tva_function h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 29.64px */
+    margin: 2% auto;
+
+ }
+ .tva_function p{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%; /* 22.86px */
+    margin: 2% auto;
+
+ }
+ .tva_function li span {
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 188%; /* 39.48px */
+ } 
+ .tva_function li p{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%;
+    display: inline-block;
+ }
+ .tva_function ul{
+    padding-left: 20px;
+    margin: 2% auto;
+ }
+.bluesection_tva{
+    background: url('../../assets/testimonials.png');
+    text-align: center;
+    padding: 3% 5% 8% 5%;
+}
+.bluesection_tva p{
+    width: 60%;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%; /* 25.4px */
+}
+.bluesection_tva h2{
+    color: #0B2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 39.52px */
+    margin: 2% auto;
+}
+.image_tva{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: -80px;
+}
+.image_tva p:first-of-type{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%; /* 15.96px */
+    margin: 1% auto 2% auto;
+}
+.image_tva p:last-child{
+    text-align: left !important;
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%; /* 22.86px */
+}
+.last_ul_tva li{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 188%; /* 39.48px */   
+}
+.tva_cards{
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 41.76px */
+    width: 55%;
+    margin: 5% auto;
+}
+.tva_cards h2{
+    margin: 5% auto;
+    font-size: 40px;
+}
+.image_tva img{
+    width: 50%;
+}
+.swisstva_cards_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+@media screen and (max-width: 1920px){
+    .swiss_tva_header_p{
+   
+        padding: 3% 3%;
+    
+    }
+    .swisstva_cards_wrap{
+        width: 100%;
+    }
+     .swiss_tva .jobList {
+        width: 65%;
+        
+     }
+     .bluebg_tva{
+        width: 70%;
+     }
+     .tva_function{
+        width: 70%;
+       
+     }
+    .bluesection_tva{
+     
+        padding: 3% 0 8% 0;
+    }
+    .tva_cards{
+      
+        width: 70%;
+      
+    }
+}
+@media (max-width:600px){
+    .swiss_tva .jobList{
+        width: 100%;
+    }
+    .time_author_tva{
+        width: 100%;
+    }
+    .swiss_tva_header_p1{
+        width: 100%;
+    }
+    .bluebg_tva{
+        width: 100%;
+    }
+    .tva_function{
+        width: 90%;
+    }
+    .bluesection_tva p {
+        width: 100%;
+    }
+    .bluesection_tva{
+        padding-bottom: 30%;
+    }
+    .image_tva p:last-child {
+        width: 100%;
+    }
+    .image_tva{
+        width: 100%;
+    }
+    .image_tva img{
+        width: 80%;
+    }
+    .swiss_tva .joblist_thead th:first-child {
+        font-size: 12px;
+    }
+    .swiss_tva .joblist_thead th {
+        
+        font-size: 12px;
+        
+    }
+    .tva_cards h2{
+        margin: 5% auto;
+        font-size: 24px;
+    }
+}

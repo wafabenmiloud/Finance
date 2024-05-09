@@ -1,0 +1,153 @@
+.contact_tous{
+    width: 70%;
+    margin: 5% auto 10% auto;
+}
+.contact_tous h1{
+    color: #25A7FF;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+    margin: 2% 0%;
+}
+.add_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_contact a{
+    border-radius: 2px;
+    background: #25A7FF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.5%; /* 16.08px */
+    margin:1%;  
+    padding: 1%;
+}
+.section1_contacttous{
+    border-radius: 5px;
+    border: 0.5px solid #FFF;
+    background: radial-gradient(59.3% 57.09% at 42.43% 53.5%, rgba(237, 237, 237, 0.98) 0%, #FEFFFF 100%);
+    box-shadow: 0px 15px 23px 0px rgba(0, 0, 0, 0.13);
+    height: 1200px;
+}
+.above_table_contact input {
+    border-radius: 4px;
+    border: 0.5px solid #8E8E8E;
+    color: #8E8E8E;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.023%;
+    /* 13.202px */
+    letter-spacing: 1.5px;
+    padding: 1% 2%;
+    width: 25%;
+    background-image: url('../../assets/navbar/search.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+  }
+  .above_table_links a {
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 18.705px */  
+    margin: 20%;
+  }
+  .above_table_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5% ;
+  }
+  .thead_contact{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+  }
+  .thead_contact h4{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100.5%; /* 16.08px */
+  }
+  .input_contact input {
+    border-radius: 5px;
+    border: 1px solid #959799;
+    padding: 1% 2%;
+    margin: 1%;
+    width: 20%;
+  }
+  .input_contact {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+        
+  }
+  .input_contact1{
+    background-color: white;
+  }
+  .input_contact input[type='checkbox']{
+    width: 2%;
+  }
+  .input_contact select{
+    border-radius: 5px;
+    border: 1px solid #959799;
+    padding: 1% 2%;
+    margin: 1%;
+    width: 16%;
+  }
+  .input_cancel{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+
+  }
+  .input_cancel img{
+    margin: 10%;
+  }
+  .input_cancel option{
+    color: #7B7B7B;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */
+  }
+  .output_contact{
+    justify-content: space-between;
+  }
+  .output_contact p{
+    width: 15%;
+    color: #7B7B7B;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.5%; /* 12.06px */    
+  }
+  .output_img{
+    width: 5%;
+    text-align: center;
+    background-color: rgba(237, 237, 237, 0.98) 0%;
+  }
+  .table_contact hr {
+    margin-bottom: 0;
+  }
+  
+@media (max-width:600px){
+    .contact_tous{
+        width: 100%;
+
+    }
+}

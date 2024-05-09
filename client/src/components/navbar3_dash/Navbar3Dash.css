@@ -1,0 +1,219 @@
+.nav3_dash .info_wrapper {
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+}
+.nav3_dash .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-left: -50px;
+  align-items: center;
+}
+.nav3_dash .info_list {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.nav3_dash .info_link {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132.023%;
+  /* 18.483px */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  margin: 0% 2%;
+}
+.nav3_dash .info_list img {
+  border-left: solid white 1px;
+  padding: 0 2%;
+  width: 50px;
+  height: 35px;
+  margin-bottom: -10px;
+}
+
+.nav3_dash .username {
+  width: 40px;
+  height: 50px;
+}
+.nav3_dash .modal-content-inner {
+  display: flex;
+  flex-direction: column;
+  width: 11%;
+  position: absolute;
+  top: 65px;
+  left: 78%;
+  border-radius: 5px;
+  background: #fff;
+  color: #8e8e8e !important;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.023%; /* 15.843px */
+  padding: 0.5%;
+}
+.nav3_dash .modal-content-inner a {
+  margin: 2%;
+}
+
+.nav3_dash .ReactModal__Overlay {
+  background-color: rgb(26 26 26 / 75%) !important;
+}
+.nav3_dash .modal-content-inner2 {
+  border-radius: 5px;
+  background: #fff;
+  position: absolute;
+  width: 27%;
+  top: 75px;
+  left: 51%;
+  padding: 3%;
+  padding-right: 0%;
+}
+.nav3_dash .modal-content-inner2 h2 {
+  color: #434343;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 20.1px */
+  margin-bottom: 10%;
+}
+.nav3_dash .modal-content-inner2 .year {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5%;
+  margin-left: 30%;
+}
+.nav3_dash .year p img {
+  position: absolute;
+  left: -35px;
+  top: 6px;
+}
+.nav3_dash .year p {
+  position: relative;
+}
+.nav3_dash .year a {
+  color: #7b7b7b;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 14.07px */
+  padding: 2% 3%;
+}
+.nav3_dash .year a:hover {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100.5%; /* 16.08px */
+  padding: 2% 3%;
+  border-radius: 2px;
+  background: #25a7ff;
+}
+.nav3_dash .close_year {
+  color: #d9d9d9;
+  font-family: Plus Jakarta Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100.5%; /* 13.065px */
+  border-radius: 2px;
+  background: #7b7b7b;
+  padding: 1% 2%;
+  position: relative;
+  top: 35px;
+}
+
+@media screen and (max-width: 1080px) {
+  .nav3_dash .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding: 4% 4%;
+  }
+  .nav3_dash .info_list {
+    flex-direction: row;
+    width: 100%;
+  }
+  .nav3_dash .info_link {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0rem 0.8rem;
+  }
+}
+@media (max-width: 600px) {
+   
+      .nav3_dash .info {
+       
+        width: 90%;
+        margin: auto;
+        padding-left: 0px;
+      }
+      .nav3_dash .info_list {
+        width: 50%;
+        
+      }
+      .nav3_dash .info_link {
+    
+        width: 100%;
+        margin: 0% 2%;
+      }
+      .nav3_dash .info_list img {
+        width: 40px;
+        height: 35px;
+        margin-bottom: -10px;
+        margin-left: 10px;
+      }
+      
+      .nav3_dash .username {
+        width: 40px;
+        height: 40px;
+      }
+      .nav3_dash .modal-content-inner {
+        width: 55%;
+        top: 65px;
+        left: 40%;
+        font-size: 12px;
+       
+      }
+   
+      .nav3_dash .modal-content-inner2 {
+        width: 80%;
+        top: 75px;
+        left: 11%;
+      }
+      .nav3_dash .modal-content-inner2 h2 {
+        font-size: 16px;
+      }
+      .nav3_dash .modal-content-inner2 .year {
+        margin-left: 20%;
+      }
+      .nav3_dash .year a {
+        font-size: 12px;
+      }
+      .nav3_dash .close_year {
+        top: 5px;
+      }
+}

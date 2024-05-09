@@ -1,0 +1,56 @@
+.jobList{
+    margin: 10% auto 40% auto;
+}
+.jobList h1{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+}
+.jobList table{
+    margin:3% auto;
+    border-collapse: collapse;
+
+}
+.jobList td{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%; /* 21.12px */
+    padding: 45px;
+}
+.jobList td p {
+    position: relative;
+    left: -10%;
+}
+.jobList tr{
+   border-bottom: 1px solid black;
+}
+.jobList th{
+    text-align: left;
+    padding: 20px;
+}
+.joblist_thead{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 6px 6px 27px 0px rgba(0, 0, 0, 0.15);
+    border-bottom: none !important;
+}
+.jobList :last-child{
+    border-bottom: none !important;
+}
+@media (max-width:700px){
+    .jobList td{
+        
+        padding: 4%;
+        font-size: 12px;
+    }
+    .jobList th{
+        font-size: 12px;
+    }
+}

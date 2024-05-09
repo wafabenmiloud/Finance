@@ -1,0 +1,204 @@
+#trial_screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#trial_screen .bg {
+  background: #00f8f7;
+  width: 100%;
+  height: 50px;
+}
+#trial_screen .trial_head {
+  margin-top: -1%;
+}
+#trial_screen .trial_header_img img{
+    width: 100%;
+}
+#trial_screen .trial_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#trial_screen .trial_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #0b2840;
+  box-shadow: 0px 20px 18px 0px rgba(0, 0, 0, 0.13);
+  padding: 7px;
+}
+#trial_screen .trial_icon img {
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+}
+#trial_screen .trial_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 1%;
+  }
+  
+  #trial_screen .input_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 0;
+    width: 100%;
+  }
+  #trial_screen .input_row div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+border: 0.5px solid #000;
+background: #FFF;
+padding: 20px 17px;
+width: 100%;
+  }
+  #trial_screen .input_row_small{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+border: none !important;
+background: #FFF;
+padding: 0;
+width: 100%;
+gap: 10px;
+  }
+  #trial_screen .small{
+    width: 40% !important;
+    padding: 7px 17px !important;
+  }
+  #trial_screen .small2 input{
+    width: 100% !important;
+  }
+#trial_screen h1 {
+  color: #0b2840;
+  text-align: center;
+  font-size: 32px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#trial_screen h3 {
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%;
+}
+#trial_screen .trial_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#trial_screen .trial_btn1 {
+  color: #0b2840;
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132.023%;
+  background-color: transparent;
+}
+#trial_screen .trial_btn2 {
+  border-radius: 5px;
+  background: #00f8f7;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+  padding: 13px 24px;
+  color: #0b2840;
+  text-align: center;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132.023%;
+}
+#trial_screen .trial_btn1:hover, .trial_btn2:hover{
+    cursor: pointer;
+}
+#trial_screen .trial_politic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 24px 5px;
+}
+#trial_screen span {
+  color: #25a7ff;
+}
+#trial_screen p {
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 10px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%;
+}
+#trial_screen .input_row .small select{
+  border: none;
+  padding: 0px;
+  height: 100% !important;
+}
+.small select{
+  background-color: white;
+}
+#trial_screen input[type="email"]{
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+@media screen and (max-width: 600px) {
+    .input_row{
+       
+        flex-wrap: wrap;
+        
+        width: 80%;
+      }
+      .trial_head {
+        margin-top: -4%;
+      }
+      
+      .trial_icons {
+       width: 60% !important;
+       margin: auto;
+      }
+      
+      .trial_icon img{
+        width: 80%;
+        margin: auto;
+      }
+      .no_padd{
+    padding: 8px 7px !important;
+    width: 100%;
+      }
+     
+      #trial_screen .small{
+        width: 60% !important;
+        padding: 7px 17px !important;
+      }
+      #trial_screen .small2 input{
+        width: 100% !important;
+      }
+}

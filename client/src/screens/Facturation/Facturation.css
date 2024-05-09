@@ -1,0 +1,134 @@
+.section1_facturation,.section2_facturation{
+    width: 50%;
+    margin: 3% auto;
+}
+.section1_facturation h2{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 29.64px */
+    margin: 2% auto;
+
+}
+.section1_facturation li{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans; 
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 188%; /* 39.48px */
+}
+.section1_facturation ul{
+    padding-left: 20px;
+    margin: 2% auto;
+
+}
+.section1_facturation h5{
+    color: #0B2840;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%; /* 20.79px */
+    border-radius: 10px;
+    background: rgba(37, 167, 255, 0.29);
+    box-shadow: -4px 9px 28px 0px rgba(0, 0, 0, 0.13);
+    padding: 2%;
+    margin: 2% auto;
+
+}
+.section1_facturation p{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%; /* 26.72px */
+    margin: 2% auto;
+}
+.facturation_center h3, .facturation_center p{
+    width: 60%;
+    margin: auto;
+
+}
+.facturation_center h3{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.5%; /* 35.64px */
+    margin: 1% auto;
+}
+.facturation_center p{
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.5%; /* 29.7px */
+}
+.facturation_test h2{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.5%; /* 35.64px */
+}
+.facturation_test a{
+    color: #0B2840;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.023%; /* 23.764px */
+    padding:1% 2%;
+    border-radius: 5px;
+    background: #00F8F7;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 35% ;
+    margin: 2% auto 5% auto;
+}
+.section2_facturation h3{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%; /* 29.64px */
+}
+.section2_facturation p{
+    color: #0B2840;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%; /* 26.72px */
+    margin: 2% auto;
+}
+@media screen and (max-width: 1920px){
+    .section1_facturation,.section2_facturation{
+        width: 80%;
+        margin: 3% auto;
+    }
+}
+@media (max-width:600px){
+    .section1_facturation,.section2_facturation{
+        width: 80%;
+    }
+    .facturation_center p,.facturation_center h3{
+        width: 90%;
+    }
+    .facturation_test a{
+        width: 80%;
+    }
+}

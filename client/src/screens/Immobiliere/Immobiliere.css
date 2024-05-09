@@ -1,0 +1,132 @@
+.immob_client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.immob_client_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  border-radius: 25px;
+  background: linear-gradient(215deg, #fff 0%, #e5f4ff 100%);
+  box-shadow: 5px 10px 32px 0px rgba(0, 0, 0, 0.13);
+  padding: 4% 2%;
+  width: 45%;
+  margin: auto;
+}
+.immob_client_content h2 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.immob_client_content h5 {
+  color: #959799;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%; /* 20.24px */
+}
+.immob_client_content p {
+  color: #959799;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%; /* 17.71px */
+}
+.immob_client_img {
+  margin-bottom: -3%;
+  z-index: 9999;
+}
+.cards_sales .h1 {
+  text-align: center;
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 46.4px */
+}
+.cards_sales .p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%; /* 20.544px */
+}
+.photo_sales_start_img{
+    border-radius: 0px 105px 130px 150px;
+    border: 2px solid #25A7FF;
+}
+.row_reverse_imgg{
+    border-radius: 130px 0px 150px 105px;
+border: 2px solid #25A7FF;
+}
+.immob_imgs_wrapper{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4% 0;
+}
+.immob_imgs_wrapper h1{
+    color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 46.4px */
+}
+.immob_imgs_wrapper p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%; /* 20.544px */
+width: 60%;
+padding: 2% 0;
+}
+.immob_imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px ;
+}
+.immob_imgs img{
+    width: 20%;
+}
+@media screen and (max-width: 600px) {
+    .immob_imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:20px ;
+    }
+    .immob_imgs img{
+        width: 100%;
+    }
+  
+}

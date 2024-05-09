@@ -1,0 +1,210 @@
+.time_card_normal_content .spaan{
+    color: #7B7B7B;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 157.5%; /* 28.35px */
+}
+.auto_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    gap: 15px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.auto_title2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    gap: 15px;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+.auto_title h1{
+    color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%;
+}
+.auto_title span{
+    color: #25A7FF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+}
+.auto_title p,.auto_title2 p{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 28.35px */
+}
+.auto_title a{
+    border-radius: 5px;
+background: #00F8F7;
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.25);
+color: #0B2840;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 132.023%; /* 23.764px */
+padding: 10px 15px;
+}
+.auto_cards{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    padding: 4% 0%;
+    column-gap: 20px;
+   row-gap: 200px;
+   width: 50%;
+   margin: auto;
+}
+.auto_card_wrap{
+  width: 80%;
+   margin: auto;
+}
+.auro_cards h3{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.523%; /* 14.964px */
+  }
+  .auto_cards h4{
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+  }
+  .auto_client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 15%;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-image: url(../../assets/artisanat_bg.png);
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+  }
+  .auto_client_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+width: 80%;
+  }
+  .auto_client_text h1{
+    color: #000;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%; /* 46.4px */
+  }
+  .auto_client_text p{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 128.4%; /* 20.544px */
+  }
+  @media screen and (max-width: 1920px){
+    .auto_cards{
+      display: grid;
+  grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+  text-align: center;
+      padding: 4% 0%;
+      column-gap: 20px;
+     row-gap: 200px;
+     width: 80%;
+     margin: auto;
+  }
+  .auto_card_wrap{
+    width: 100%;
+     margin: auto;
+  }
+  }
+  @media (max-width:1024px){
+ 
+    .auto_cards{
+        padding: 4% 2%;
+    }
+
+  }
+  @media (max-width:600px){
+   
+    .auto_cards{
+        display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+    background-size: 100% 100%;
+}
+
+.auto_title{
+    width: 90%;
+}
+.auto_title2{
+    width: 95%;
+}
+.auto_title h1{
+font-size: 30px;
+
+}
+.auto_title span{
+    font-size: 30px;
+}
+.auto_title p,.auto_title2 p{
+    font-size: 16px;
+ 
+}
+.auto_title a{
+font-size: 16px;
+}
+  .auto_client{
+    padding: 6% 3%;    
+  }
+  .auto_client_text{
+width: 90%;
+  }
+  .auto_client_text h1{
+font-size: 30px;
+
+  }
+  }
